@@ -1,0 +1,1 @@
+﻿var InterestApp123 = angular.module('InterestApp', []);

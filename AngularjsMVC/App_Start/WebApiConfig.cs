@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace NECPractice
+namespace AngularjsMVC
 {
     public static class WebApiConfig
     {

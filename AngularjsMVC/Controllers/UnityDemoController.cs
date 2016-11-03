@@ -1,11 +1,11 @@
-﻿using NECPractice.Models;
+﻿using AngularjsMVC.Models;
 using System.Web.Mvc;
 using System.Linq;
 using Newtonsoft.Json;
 using System;
 using System.Data.Entity;
 
-namespace NECPractice.Controllers
+namespace AngularjsMVC.Controllers
 {
     public class UnityDemoController : Controller
     {

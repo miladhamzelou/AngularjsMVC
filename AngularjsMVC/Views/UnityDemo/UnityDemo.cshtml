@@ -1,0 +1,87 @@
+﻿<div class="Container" data-ng-app="InterestApp" data-ng-controller="InterestCtrl">
+    Query form
+    <table class="list-table">
+        <tr>
+            <td>
+                You like the Food:
+            </td>
+            <td>
+                <input type="text" ng-model="queryForm.Food" />
+            </td>
+            <td>
+                <input type="button" value="Query" ng-click="GetList(queryForm)" />
+            </td>
+        </tr>
+    </table>
+    Add form
+    <table class="list-table">
+        <tr>
+            <td>
+                You like the food：
+            </td>
+            <td>
+                <input type="text" ng-model="Form.Food" />
+            </td>
+            <td>
+                You like the drink：
+            </td>
+            <td>
+                <input type="text" ng-model="Form.Drink" />
+            </td>
+            <td>
+                You like the sport：
+            </td>
+            <td>
+                <input type="text" ng-model="Form.Sport" />
+            </td>
+            <td>
+                <input type="button" ng-click="AddData(Form)" value="Create" />
+            </td>
+        </tr>
+    </table>
+    Data show
+    <table class="list-table">
+        <thead>
+            <tr>
+                <th>
+                    No
+                </th>
+                <th>
+                    You like the food
+                </th>
+                <th>
+                    You like the drink
+                </th>
+                <th>
+                    You like the sport
+                </th>
+                <th>
+                    Function
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="d in List" ng-include="getTemplateList(d)"></tr>
+        </tbody>
+    </table>
+    <script type="text/ng-template" id="display">
+        <td> {{d.Id}}</td>
+        <td> {{d.Food}}</td>
+        <td> {{d.Drink}}</td>
+        <td> {{d.Sport}}</td>
+        <td>
+            <input type="button" ng-click="Edit(d)" value="Edit" />
+            <input type="button" ng-click="Delete(d,$index)" value="Delete" />
+        </td>
+    </script>
+    <script type="text/ng-template" id="edit">
+        <td> {{selected.Id}}</td>
+        <td><input type="text" ng-model="selected.Food" /></td>
+        <td><input type="text" ng-model="selected.Drink" /></td>
+        <td><input type="text" ng-model="selected.Sport" /></td>
+        <td>
+            <input type="button" ng-click="update(selected,$index)" value="Update" />
+            <input type="button" ng-click="reset()" value="Cancel" />
+        </td>
+    </script>
+</div>

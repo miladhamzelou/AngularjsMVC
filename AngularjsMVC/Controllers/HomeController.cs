@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace NECPractice.Controllers
+namespace AngularjsMVC.Controllers
 {
     public class HomeController : Controller
     {
