@@ -17,7 +17,6 @@ namespace AngularjsMVC.Controllers
                                new Item{id="3", name="item3", amount=123},
                            };
 
-
             return Json(items, JsonRequestBehavior.AllowGet);
         }
 
