@@ -1,0 +1,145 @@
+﻿.tana-blocks {
+    border:1px solid #d9d9d9;
+    height:460px;
+    position:relative;
+    padding:5px;
+    overflow:hidden;
+    margin:10px 0;
+}
+.tana-list-box{
+    margin-top:5px;
+}
+.tana-list-block {
+    height: 100%;
+    position: relative;
+    padding-right: 430px;
+    white-space: nowrap;
+    overflow:auto;
+}
+.tana-list-block .inline{
+    display:inline-block;
+    margin-left:20px;
+}
+.tana-query-block{
+    /*border:1px solid yellow;*/
+    width:430px;
+    height:100%;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.tana-list {
+    margin-top:3px;
+    list-style:none outside none;
+}
+    .tana-list li {
+        width: 108px;
+        display: inline-block;
+        padding: 1px;
+        border: 1px solid #D9D9D9;
+        vertical-align: top;
+        white-space: normal;
+        margin: 0 1px;
+    }
+        .tana-list li:nth-child(1) {
+            width: 86px;
+        }
+        .tana-list li:nth-child(2) {
+            width: 40px;
+            text-align: center;
+        }
+
+            .tana-list li:nth-child(2) > div {
+                position: relative;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+        .tana-list li > div.li_container {
+            position: relative;
+            height: 100%;
+        }
+            .tana-list li > div.li_container select {
+                width:95%;
+            }
+        .tana-list li div.bottom {
+            width:86px;
+            position: absolute;
+            bottom: 5px;
+        }
+
+.tana-list-header li {
+    background-color:lightgray;
+    text-align:center;
+}
+
+.tana-list-layer li {
+    height: 118px;
+}
+    .tana-list-layer li.reserve {
+        border-style: dashed;
+        border-color: lightskyblue;
+        color: lightskyblue;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 118px;
+        font-size: 24pt;
+        cursor: default !important;
+    }
+
+    .tana-list-layer li div.layer_no {
+        font-weight: normal;
+        text-align: center;
+        background-color: peachpuff;
+        margin-bottom:10px;
+    }
+    .tana-list-layer li select{
+        padding:0;
+    }
+
+.tana-items-container {
+    margin: 0;
+    height: 250px;
+    padding: 3px;
+    padding-left:20px;
+    overflow:auto;
+}
+
+.tana-items {
+    list-style: none outside none;
+}
+    .tana-items li {
+        width: 108px;
+        height: 118px;
+        display: inline-block;
+        padding: 1px;
+        vertical-align: top;
+        white-space: normal;
+        margin: 1px;
+    }
+
+.tana-query-items {
+    list-style: none outside none;
+}
+    .tana-query-items li {
+        width: 300px;
+        padding: 3px 5px;
+        white-space: normal;
+        margin: 1px;
+    }
+
+    .tana-query-items li .item-index{
+        float:left;
+        padding-top:10px;
+        width:56px;
+        text-align:center;
+        color: gray;
+    }
+
+    .tana-query-items li .item-description{
+        text-overflow: ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+    }

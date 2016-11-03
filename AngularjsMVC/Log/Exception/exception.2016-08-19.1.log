@@ -1,0 +1,24 @@
+----------------------------------------
+2016/8/18 下午 02:51:24	[Error]	[HOWHOWSONY-12WE]	An error occurred while executing the command definition. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Services.BAC\Services\SysJobLogService.cs	line:79
+An error occurred while executing the command definition. See the inner exception for details.
+----------------------------------------
+2016/8/18 下午 02:51:40	[Error]	[HOWHOWSONY-12WE]	An error occurred while executing the command definition. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Services.BAC\Services\SysJobLogService.cs	line:79
+An error occurred while executing the command definition. See the inner exception for details.
+----------------------------------------
+2016/8/18 下午 02:53:16	[Error]	[HOWHOWSONY-12WE]	The entity type V_BAC_JobLogAll is not part of the model for the current context.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Services.BAC\Services\SysJobLogService.cs	line:30
+----------------------------------------
+2016/8/18 下午 02:55:23	[Error]	[HOWHOWSONY-12WE]	The specified LINQ expression contains references to queries that are associated with different contexts.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Services.BAC\Services\SysJobLogService.cs	line:79
+----------------------------------------
+2016/8/19 下午 01:39:40	[Error]	[HOWHOWSONY-12WE]	Attaching an entity of type 'TopPos.Data.Entities.BAC_StoreDevice_M' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\BasicRepository.cs	line:158
+----------------------------------------
+2016/8/19 下午 01:40:56	[Error]	[HOWHOWSONY-12WE]	Attaching an entity of type 'TopPos.Data.Entities.BAC_StoreDevice_M' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\BasicRepository.cs	line:158
+----------------------------------------
+2016/8/19 下午 02:07:48	[Error]	[HOWHOWSONY-12WE]	An error occurred while updating the entries. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\DbContextProxy.cs	line:65
+An error occurred while updating the entries. See the inner exception for details.

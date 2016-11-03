@@ -1,0 +1,136 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+a {
+    outline: medium none;
+    text-decoration: none;
+}
+
+body {
+    background: url('images/login/ERP.jpg') no-repeat center top;
+    font-family: "微軟正黑體",Arial, Helvetica, sans-serif,"新細明體";
+}
+
+.wrap {
+    width: 280px;
+    height: 368px;
+    padding: 25px 40px;
+    margin: 140px auto 0 auto;
+    background: url("images/login/bg-panel.png") no-repeat;
+}
+
+.com-logo {
+    height: 90px;
+    width: 280px;
+    text-align: center;
+    display: table-cell;
+}
+
+    /*IE6 hack*/
+    .com-logo span {
+        height: 100%;
+        display: inline-block;
+    }
+
+    /*讓.com-log下的所有元素都垂直居中*/
+    .com-logo * {
+        vertical-align: middle;
+    }
+
+
+.com-name {
+    display: table;
+    width: 280px;
+    font-size: 26px;
+    line-height: 1;
+    color: #666666;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.myTR {
+    display: table-row;
+}
+
+.myTD {
+    display: table-cell;
+    vertical-align: middle;
+    height: 70px;
+}
+
+.Input-box {
+    text-align:center;
+}
+    .Input-box .input-form{
+        width:200px;
+        margin:0 auto;
+    }
+
+    .Input-box input {
+        width: 175px;
+        height: 35px;
+        margin: 0 15px 10px 15px;
+        font-size: 16px;
+        line-height: 1.6;
+        padding: 0 35px;
+    }
+
+        .Input-box input.id {
+            background: url('images/login/id.png') no-repeat 7px;
+        }
+
+        .Input-box input.password {
+            background: url('images/login/password.png') no-repeat 7px;
+        }
+
+    .Input-box .buttons {
+        float:right;
+        margin-right:10px;
+    }
+
+.placeholder {
+    color: #aaa;
+}
+
+.message {
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #e72e29;
+    margin: 5px 15px;
+    overflow: hidden;
+}
+
+.btn-box {
+    margin: 10px 15px 0 15px;
+}
+
+    .btn-box a {
+        display: block;
+        width: 250px;
+        height: 50px;
+        background: url('images/login/btn-login.png') top left;
+        text-align: center;
+        text-indent: -9999px;
+    }
+
+        .btn-box a:active {
+            background: url('images/login/btn-login.png') bottom left;
+        }

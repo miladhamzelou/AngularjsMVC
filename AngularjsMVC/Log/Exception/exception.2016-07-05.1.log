@@ -1,0 +1,10 @@
+----------------------------------------
+2016/6/7 下午 01:27:44	[Error]	[HOWHOWSONY-12WE]	找不到檢視 'VNProductDialog' 或其主版，或沒有任何檢視引擎支援搜尋的位置。已搜尋過下列位置: 
+~/Views/Dialog/VNProductDialog.aspx
+~/Views/Dialog/VNProductDialog.ascx
+~/Views/Shared/VNProductDialog.aspx
+~/Views/Shared/VNProductDialog.ascx
+~/Views/Dialog/VNProductDialog.cshtml
+~/Views/Dialog/VNProductDialog.vbhtml
+~/Views/Shared/VNProductDialog.cshtml
+~/Views/Shared/VNProductDialog.vbhtml

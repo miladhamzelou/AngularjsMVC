@@ -1,12 +1,16 @@
 ﻿using System.Web.Mvc;
 
-namespace AngularjsMVC.Controllers
+namespace TopPos.Web.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            ViewBag.IsHome = true;
+            return View();
+        }
+
+        public ActionResult NgDynamic()
+        {
             return View();
         }
     }

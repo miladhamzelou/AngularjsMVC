@@ -1,22 +1,4 @@
 ﻿@{
-    ViewBag.Title = "首頁";
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h1>AngularJS MVC</h1>
-
-<table>
-    <tr>
-        <td style="padding-left:50px;">
-            <ul>
-                <li>@Html.ActionLink("Sample Demo", "SampleDemo", new { controller = "SampleDemo", }, new { target = "_blank" })</li>
-            </ul>
-            <ul>
-                <li>@Html.ActionLink("Unity Demo", "UnityDemo", new { controller = "UnityDemo"}, new { target = "_blank" })</li>
-            </ul>
-            <ul>
-                <li><a target="_blank" href='@Url.Content("/Content/html/Keyframe.html")'>CSS3</a></li>
-            </ul>
-        </td>
-    </tr>
-</table>
-

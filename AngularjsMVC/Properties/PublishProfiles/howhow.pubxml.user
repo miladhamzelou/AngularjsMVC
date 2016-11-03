@@ -1,0 +1,2047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案是由您 Web 專案的發行/封裝處理程序所使用。您可以編輯此 MSBuild 檔案，
+以自訂此處理程序的行為。若要深入了解，請造訪 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Souce work\NEC\compileToServer</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/ACC/Views/Account/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashDetailMonth_R/Index.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashExpInv/Index.cshtml">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashExpInvCHK_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashInvChange_R/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashReportAndInvDiff/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashReportInvDiff_R/Index.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CashShortOverFlow_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CertificateOfSales/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CertificateOfSales_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ChangePrice/index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ChangePricePosData/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ChangePricePosData_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ChangePrice_R/index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CloseCTL/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/CostOfGoodsSold_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/DailyCash/Index.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/DailyCashChk_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ECAndCashChk_R/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ECAppropriation/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ECAutoDiffChk/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ECAutoFeeChk/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ECFeeChk/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/EcIcashFeeRate/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ECStoresTran/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ExcludeStore/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ExpenseDetail_R/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IcashAndCashChk/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IcashAndCashChk/ReportingServer.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IcashAppropriation/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IcashAutoFeeChk/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IcashDiffChk/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ICASHDiffReason/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IcashFeeCheck/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IDO/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/IDO_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ImportInvoiceTrackPage/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/InvDis_R/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/MonthDataAutoClose/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/OutPutFileTaxDate_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/OutPutInvDetails_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/POSSubject/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ProfitLoss/Index.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/ProfitLoss_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Purchase/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/PurchaseTot_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Purchase_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/PurInv/Index.cshtml">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/PurInvDiff_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/PurInvQuery_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Query7788DataPage/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/QueryStoreDepositCashPage_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Remittance/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/RemittanceDiff_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Scrapped/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Scrapped_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/StoreCashDiff_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/StoresTranIcash/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/StoreUploadDiff_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/Subject/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/VIP_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/ACC/Views/web.config">
+      <publishTime>04/27/2016 14:10:44</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Area/Index.cshtml">
+      <publishTime>04/25/2016 17:23:33</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Calendar/Index.cshtml">
+      <publishTime>04/28/2016 13:34:17</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Category/Index.cshtml">
+      <publishTime>04/28/2016 14:11:56</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/ChangeUserPassword/index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Character/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/DataDownlink/Index.cshtml">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Item/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/ItemGroup/Index.cshtml">
+      <publishTime>04/27/2016 17:07:02</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/ItemInfo/Index.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Menu/Index.cshtml">
+      <publishTime>04/25/2016 17:23:33</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/PosSHC/Index.cshtml">
+      <publishTime>04/25/2016 17:23:33</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/RoleMenu/Index.cshtml">
+      <publishTime>04/25/2016 17:23:33</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Store/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/User/Index.cshtml">
+      <publishTime>04/25/2016 17:23:33</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Vendor/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/Version/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BAC/Views/web.config">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BCS/Views/Broadcast/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BCS/Views/MediaList/Index.cshtml">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/BCS/Views/web.config">
+      <publishTime>04/27/2016 14:10:45</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItemCSV/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItemList/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItemList/loadFullItmCode.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItemList/testIndex.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItem_R/ExportReport.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItem_R/ExportReportStore.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaItem_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaReturnQuery/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaStore/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaStoreList/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/GondolaType/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/GDL/Views/web.config">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/PAC/Views/ExpireNotice/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/PAC/Views/ReturnNotice/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/PAC/Views/ReturnNotice/retreat.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/PAC/Views/ReturnNotice/Upload.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/PAC/Views/ReturnQuery/Index.cshtml">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/PAC/Views/web.config">
+      <publishTime>04/27/2016 14:10:46</publishTime>
+    </File>
+    <File Include="Areas/SIF/Views/SCReportCategory_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:48</publishTime>
+    </File>
+    <File Include="Areas/SIF/Views/SCXLSDataImport/Index.cshtml">
+      <publishTime>04/28/2016 14:14:40</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/PromoPriceCard/Index.cshtml">
+      <publishTime>04/28/2016 14:18:03</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/Index.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProIncraseD_Category_Exclude.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProIncraseD_Category_Include.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProIncraseD_Item.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProIncraseM.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProM.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMemberGiftD_Gift.cshtml">
+      <publishTime>04/28/2016 13:11:38</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMemberGiftM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMemberPointBuyM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMMD_A.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMMD_B.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMMD_C.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProMMM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProM_Buttons.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseDisD_Activity_Exclude.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseDisD_category_Exclude.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseDisD_Category_Include.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseDisM.cshtml">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseGiftD_Category_Exclude.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseGiftD_Category_Include.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseGiftD_Stage_First.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseGiftD_Stage_Second.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProPurchaseGiftM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProSaleD_Category_Exclude.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProSaleD_Category_Include.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProSaleD_Import.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProSaleD_Item.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProSaleM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProStairD.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProStairM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_ProStoreM.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_Query.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/Promotion/_Tabs.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/ProPeriod/Index.cshtml">
+      <publishTime>04/27/2016 14:10:48</publishTime>
+    </File>
+    <File Include="Areas/SPR/Views/web.config">
+      <publishTime>04/27/2016 14:10:48</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/27/2016 14:12:33</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>04/27/2016 14:12:36</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/CodeFirstStoreFunctions.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/DelegateDecompiler.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/27/2016 14:12:36</publishTime>
+    </File>
+    <File Include="bin/LinqToExcel.dll">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>04/27/2016 14:12:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Build.Utilities.v3.5.dll">
+      <publishTime>08/03/2013 12:40:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Mvc.dll">
+      <publishTime>04/27/2016 14:12:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.DLL">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Mono.Reflection.dll">
+      <publishTime>04/27/2016 14:12:33</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/Remotion.Data.Linq.dll">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/Remotion.dll">
+      <publishTime>04/27/2016 14:12:35</publishTime>
+    </File>
+    <File Include="bin/Remotion.Interfaces.dll">
+      <publishTime>04/27/2016 14:12:35</publishTime>
+    </File>
+    <File Include="bin/ReportViewerForMvc.dll">
+      <publishTime>04/27/2016 14:12:35</publishTime>
+    </File>
+    <File Include="bin/StyleCop.CSharp.dll">
+      <publishTime>04/27/2016 14:12:33</publishTime>
+    </File>
+    <File Include="bin/StyleCop.dll">
+      <publishTime>04/27/2016 14:12:33</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/27/2016 14:12:35</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/27/2016 14:12:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/27/2016 14:12:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/27/2016 14:12:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/27/2016 14:12:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/27/2016 14:12:36</publishTime>
+    </File>
+    <File Include="bin/TopPos.Data.dll">
+      <publishTime>04/28/2016 17:27:00</publishTime>
+    </File>
+    <File Include="bin/TopPos.Services.ACC.dll">
+      <publishTime>04/28/2016 17:27:10</publishTime>
+    </File>
+    <File Include="bin/TopPos.Services.BAC.dll">
+      <publishTime>04/28/2016 17:27:09</publishTime>
+    </File>
+    <File Include="bin/TopPos.Services.SPR.dll">
+      <publishTime>04/28/2016 17:27:10</publishTime>
+    </File>
+    <File Include="bin/TopPos.Web.dll">
+      <publishTime>04/28/2016 17:30:31</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>04/27/2016 14:12:33</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/27/2016 14:12:35</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.Build.Utilities.v3.5.resources.dll">
+      <publishTime>08/03/2013 12:41:11</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Helpers.resources.dll">
+      <publishTime>04/27/2016 14:12:37</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Mvc.resources.dll">
+      <publishTime>04/27/2016 14:12:37</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Razor.resources.dll">
+      <publishTime>04/27/2016 14:12:37</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>04/27/2016 14:12:37</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>04/27/2016 14:12:37</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.resources.dll">
+      <publishTime>04/27/2016 14:12:37</publishTime>
+    </File>
+    <File Include="Content/base/blocks.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/directive.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/icons.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/arrow.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/arrow.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/arrow_down.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/arrow_down_h.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/arrow_h.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/bg-menu.gif">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/browse.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-blue.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-blueLight.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-brown.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-brown02.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-float.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-gray.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-gray01.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-gray02.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-infoxxx.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-lightgray.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-normal.gif">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-normalxx.gif">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-table.gif">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/btn-tablexx.gif">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/copy.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/date.gif">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/delete.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/editor.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/bg-header.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/btn-info.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/icon_announcement.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/icon_banner.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/icon_logout.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/icon_menu.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/header/icon_password.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/icon.png">
+      <publishTime>04/27/2016 16:59:02</publishTime>
+    </File>
+    <File Include="Content/base/images/list.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/login/bg-panel.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/login/btn-login.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/login/ERP.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/login/id.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/login/logo-login.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/login/password.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/menu/bg-menu.jpg">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/menu/menu-arrow.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/menu/menu-arrow_b.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/menu/menu-arrow_right.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/menu/menu-arrow_right_b.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/side_icon_left.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/side_icon_right.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/ui-icons_36.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/images/waterDemo250.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/layout.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/menu.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/ng-tree-dnd.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/base/page-SPR.css">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Content/base/page.css">
+      <publishTime>04/27/2016 16:58:51</publishTime>
+    </File>
+    <File Include="Content/Download/EXCEL匯入範本_業績目標指數.xlsx">
+      <publishTime>04/25/2016 17:23:35</publishTime>
+    </File>
+    <File Include="Content/Download/EXCEL匯入範本_重點商品群組.xlsx">
+      <publishTime>04/27/2016 17:46:53</publishTime>
+    </File>
+    <File Include="Content/Download/EXCEL匯入範本_門市業績目標.xlsx">
+      <publishTime>04/25/2016 17:23:35</publishTime>
+    </File>
+    <File Include="Content/Download/EXCEL匯入範本_門市行事曆.xlsx">
+      <publishTime>04/26/2016 10:13:27</publishTime>
+    </File>
+    <File Include="Content/Download/EXCEL匯入範本_門市重點商品目標.xlsx">
+      <publishTime>04/25/2016 17:23:35</publishTime>
+    </File>
+    <File Include="Content/Download/Pac/退貨通知範本%281.全門市-停售%29.xlsx">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/Download/Pac/退貨通知範本%282.全門市-商品%29.xlsx">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/Download/Pac/退貨通知範本%283.指定門市-商品%29.xlsx">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/Download/Pac/退貨通知範本%284.檯帳調整%29.xlsx">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/Download/Pac/退貨通知範本%285.門市檯帳調整%29.xlsx">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/Download/Pac/退貨通知範本%286.輪退%29.xlsx">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-icons_222222_256x240.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-icons_228ef1_256x240.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/images/ui-icons_ffffff_256x240.png">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/jquery-ui.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="Content/themes/jqueryui/jquery-ui.theme.css">
+      <publishTime>04/27/2016 14:10:49</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/27/2016 14:10:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/27/2016 14:10:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/27/2016 14:10:42</publishTime>
+    </File>
+    <File Include="ReportViewerWebForm.aspx">
+      <publishTime>04/27/2016 14:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.min.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/AccountController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashDetailMonth_RController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashExpInvCHK_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashExpInvController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashInvChange_RController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashReportAndInvDiffController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashReportInvDiff_RController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CashShortOverFlow_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CertificateOfSalesController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CertificateOfSales_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ChangePriceController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ChangePricePosDataController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ChangePricePosData_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ChangePrice_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CloseCTLController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/CostOfGoodsSold_RController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/DailyCashChk_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/DailyCashController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ECAndCashChk_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ECAppropriationController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ECAutoDiffChkController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ECAutoFeeChkController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ECFeeChkController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/EcIcashFeeRateController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ECStoresTranController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ExcludeStoreController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ExpenseDetail_RController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IcashAndCashChkController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IcashAppropriationController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IcashAutoFeeChkController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IcashDiffChkController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ICASHDiffReasonController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IcashFeeCheckController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IDOController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/IDO_RController.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ImportInvoiceTrackPageController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/InvDis_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/MonthDataAutoCloseController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/OutPutFileTaxDate_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/OutPutInvDetails_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/POSSubjectController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ProfitLossController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ProfitLoss_RController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/PurchaseController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/PurchaseTot_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/Purchase_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/PurInvController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/PurInvDiff_RController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/PurInvQuery_RCController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/QueryStoreDepositCashPage_RController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/RemittanceController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/RemittanceDiff_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/ScrappedController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/Scrapped_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/StoreCashDiff_RController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/StoresTranIcashController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/StoreUploadDiff_RCtrlController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/SubjectController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ACC/VIP_RController.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/AreaController.js">
+      <publishTime>04/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/CalendarController.js">
+      <publishTime>04/28/2016 13:46:40</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/CategoryController.js">
+      <publishTime>04/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/ChangeUserPasswordController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/CharacterController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/DataDownlinkController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/ItemController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/ItemGroupController.js">
+      <publishTime>04/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/ItemInfoController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/MenuController.js">
+      <publishTime>04/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/PosSHCController.js">
+      <publishTime>04/27/2016 16:13:35</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/RoleMenuController.js">
+      <publishTime>04/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/StoreController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/toolTest.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/UserController.js">
+      <publishTime>04/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/VendorController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BAC/VersionController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BCS/BroadcastController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/BCS/MediaListController.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/account-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/account-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/adjust-reason-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/adjust-reason-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/area-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/area-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/area2-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/area2-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/area3-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/area3-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/brand-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category-lv1-and-lv2-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category2-barcode-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category2-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category2-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category3-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/category3-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/categoryall-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/coupon-dialog-ctrl.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/dailycash-store-ctrl.js">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/diff-reason-dialog.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/firm-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/firm-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/horderTanaGroup-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/horderTanaGroupList-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/horderTypeWithDate-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/icfa-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/icfc-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/itemUnit-dialog-ctrl .js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/masterDown-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/posssubject-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/product-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/product-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/promotion-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/properiod-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/realSubVendor-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/store-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/store-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/storeWithDate-dialog-ctrl .js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/subVendor-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/subVendor-list-dialog-ctrl .js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tana-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaclass-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaGropdialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaGropListdialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:51</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaList-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaStoreCopy-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaStoreForStoreList-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaStoreWithDateForSDate-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaTmp-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/tanaWithDate-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/team-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/user-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/user-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/vendor-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/vn-store-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/voucher-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/voucher-list-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/Common/zipcode-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/CPN/CouponController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/CPN/couponHis-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/CPN/CouponIssueRedeemed_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/CPN/couponList-dialog-ctrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/CPN/CouponStatusController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/CPN/CouponTurnOverRate_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaItemCSVController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaItemListController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaItem_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaReturnQueryController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaStoreController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaStoreListController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/GDL/GondolaTypeController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/ITF/InvrecvAndNoController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PAC/ExpireNoticeController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PAC/ReturnNoticeController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PAC/ReturnQueryController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/HQGondolaGroupController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/HQNewStoreOrderController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/HQOrderExcludeStoreController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/HQOrderMaintainController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/HQOrderTypeController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/OrderDeadlineController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/PRH/OrderQueryController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SIF/SCReportCategory_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SIF/SCReportMMItem_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SIF/SCReportPromotionItem_RController.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SIF/SCReportSaleItem_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SIF/SCReportTop100_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SIF/SCXLSDataImportController.js">
+      <publishTime>04/28/2016 14:15:17</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SPR/PromoPriceCardController.js">
+      <publishTime>04/28/2016 14:18:18</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SPR/PromotionController.js">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Scripts/Controller/SPR/ProPeriodController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/AllocateSettingController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/QueryInventoryDiff_RController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/QueryMerchandisingController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/QueryRSIStockCtrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/QueryStoreStock_R2Controller.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/StockAdjustDetailController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/STR_DCStockQty.js">
+      <publishTime>04/27/2016 14:12:55</publishTime>
+    </File>
+    <File Include="Scripts/Controller/STR/STR_DCStockQty.js.map">
+      <publishTime>04/27/2016 14:12:55</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/cssDemoController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/customDirectiveCtrl.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/formValidationController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/testDragDropController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/TestExportCsvController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/TestExportExcelController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Controller/TEST/TestImportExcelController.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Custom/checkers.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Custom/common.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Custom/directives.js">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Scripts/Custom/filters.js">
+      <publishTime>04/27/2016 14:10:52</publishTime>
+    </File>
+    <File Include="Scripts/Custom/main-ctrl.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Custom/ng-csv.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Custom/ng-tree-dnd.debug.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Custom/services.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Custom/toppos-app.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/datepicker-zh-TW.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.11.3.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.11.4.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-ext.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/27/2016 14:10:50</publishTime>
+    </File>
+    <File Include="Scripts/MvcReportTest/MvcReportTest.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/MvcReportTest/MvcReportTest.js.map">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/Account-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashDetailMonth_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashExpInv-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashExpInvCHK_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashInvChange_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashReportAndInvDiff-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashReportInvDiff_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CashShortOverFlow_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CertificateOfSales-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CertificateOfSales_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ChangePrice-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/changePricePos-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/changePricePosData_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ChangePrice_R-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CloseCTL-repository.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/CostOfGoodsSold_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/DailyCash-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/DailyCashChk_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ECAndCashChk_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ECAppropriation-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ECAutoDiffChk-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ECAutoFeeChk-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ECFeeChk-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/EcIcashFeeRate-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ECStoresTran-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ExcludeStore-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ExpenseDetail_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/IcashAndCashChkRepository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/IcashAppropriation-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/IcashAutoFeeChk-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/IcashDiffChk-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ICashDiffReason-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/IcashFeeCheck-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/IDO-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ImportInvoiceTrackPage-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/InvDis_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/MonthDataAutoClose-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/OutPutFileTaxDate_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/OutPutInvDetails_RRepository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/POSSubject-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ProfitLoss-repository.js">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/ProfitLoss_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/Purchase-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/PurchaseTot_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/Purchase_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/PurInv-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/PurInvDiff_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/PurInvQuery_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/QueryStoreDepositCashPage_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/Remittance-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/RemittanceDiff_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/scrapped-repository.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/Scrapped_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/StoreCashDiff_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/StoresTranIcash-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/StoreUploadDiff_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/Subject-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ACC/VIP_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/area-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Calendar-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Category-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/ChangeUserPassword-Repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Character-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/DataDownlink-repository.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Item-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/ItemGroup-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/ItemInfo-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Menu-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/PosSHC-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/RoleMenu-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Store-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/User-repository.js">
+      <publishTime>04/25/2016 17:23:38</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Vendor-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BAC/Version-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BCS/Broadcast-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/BCS/MediaList-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/Common/dialog-repository.js">
+      <publishTime>04/28/2016 16:35:46</publishTime>
+    </File>
+    <File Include="Scripts/Repository/CPN/Coupon-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaItemCSV-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaItemList-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaItem_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaReturnQuery-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaStore-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaStoreList-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/GDL/GondolaType-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/ITF/InvrecvAndNo-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PAC/ExpireNotice-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PAC/ReturnNotice-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PAC/ReturnQuery-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/HQGondolaGroup-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/HQNewStoreOrder-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/HQOrderExcludeStore-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/HQOrderMaintain-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/HQOrderType-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/OrderDeadline-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/PRH/OrderQuery-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/repositories.js">
+      <publishTime>04/27/2016 14:10:53</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SIF/SCReportCategory_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SIF/SCReportMMItem_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SIF/SCReportPromotionItem_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SIF/SCReportSaleItem_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SIF/SCReportTop100_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SPR/porperiod-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SPR/PromoPriceCard-repository.js">
+      <publishTime>04/28/2016 14:18:33</publishTime>
+    </File>
+    <File Include="Scripts/Repository/SPR/PromotionRepository.js">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Scripts/Repository/STR/AllocateSetting-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/STR/QueryInventoryDiff_R-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/STR/QueryMerchandisingRepository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/STR/QueryRSIStockRepository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/STR/QueryStoreStock_R2-repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Scripts/Repository/STR/StockAdjustDetail-Repository.js">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Account/Index.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Account/Permissions.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Views/ChangeUserPassword/index.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/AccountDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/AccountListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/AdjustReasonDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/AdjustReasonListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Area2Dialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Area2ListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Area3Dialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Area3ListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/AreaDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/AreaListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/BrandDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Category2BarcodeDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Category2Dialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Category2ListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Category3Dialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/Category3ListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/CategoryAllListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/CategoryDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/CategoryListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/CategoryLv1AndLv2Dialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/CategoryLv1Dialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/CouponDialog.cshtml">
+      <publishTime>04/28/2016 14:36:08</publishTime>
+    </File>
+    <File Include="Views/Dialog/DailyCashStoreDialog.cshtml">
+      <publishTime>04/28/2016 16:35:47</publishTime>
+    </File>
+    <File Include="Views/Dialog/DiffReasonDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/FirmDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/FirmListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/HorderTanaGroupDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/HorderTanaGroupListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/HorderTypeWithDateDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/IcfaDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/IcfcDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/ItemUnitDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/MasterDownDialog.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/Dialog/POSSubjectDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/ProductDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/ProductListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/PromotionDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/ProPeriodDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/QueryTanaClassM.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/RealSubVendorDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/StoreDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/StoreListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/StoreWithDateDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/SubVendorDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/SubVendorListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaBigClassDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaClassDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaGroupDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaGroupListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaStoreCopyDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaStoreForStoreListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaStoreWithDateForSDateDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaTmpDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TanaWithDateDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/TeamDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/UserDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/UserListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/VendorDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/VNStoreDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/VoucherDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/VoucherListDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Dialog/ZipcodeDialog.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Home/Buttons.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Home/ChangePwd.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Home/Menu.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Home/NgDynamic.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/SCReportTop100_R/Index.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Shared/ReportingServer.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/28/2016 14:36:09</publishTime>
+    </File>
+    <File Include="Views/Test/CssDemo.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Test/CustomDirectiveDemo.cshtml">
+      <publishTime>04/28/2016 16:35:47</publishTime>
+    </File>
+    <File Include="Views/Test/ExportCsv.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Test/ExportExcel.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Test/FormValidation.cshtml">
+      <publishTime>04/28/2016 13:11:39</publishTime>
+    </File>
+    <File Include="Views/Test/ImportExcel.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Test/TestDragDrop.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Version/Index.cshtml">
+      <publishTime>04/27/2016 14:10:55</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/27/2016 14:10:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/28/2016 17:30:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

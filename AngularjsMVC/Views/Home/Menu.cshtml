@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MenuItem>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <div class="menu">
+        @Html.RenderMenu(Model)
+    </div>
+}
+else
+{
+    <span>尚未設定功能表資料</span>
+}

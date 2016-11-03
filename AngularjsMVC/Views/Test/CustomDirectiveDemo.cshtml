@@ -1,0 +1,688 @@
+﻿<style>
+    .table-desc {
+    }
+
+        .table-desc th {
+            background-color: #CCC;
+            color: #333;
+        }
+
+        .table-desc tbody > tr {
+            background-color: white !important;
+        }
+
+        .table-desc td {
+            border: 1px solid #CCC;
+        }
+
+    td {
+        vertical-align: top;
+    }
+</style>
+
+<div ng-controller="customDirectiveCtrl">
+    <h3>客製化欄位</h3>
+    <form name="myForm" novalidate ng-submit="doSubmit(newEntity)">
+        <div class="innerBox">
+            <button type="button" class="btn btn-warning" ng-click="togglefieldDisabled()" ng-bind="fieldDisabled ? '啟用欄位' : '停用欄位'"></button>
+            <table class="table-list">
+                <thead>
+                    <tr>
+                        <th style="width:15%;">欄位</th>
+                        <th style="width:15%;">使用限制</th>
+                        <th style="width:70%">使用方式</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>電話</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">tel</span>" /&gt;<br />
+                        <input type="text" name="TelOffice" class="tel" ng-model="newEntity.TelOffice" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">date</span>" /&gt;<br /><br />
+                       
+                        <input type="text" name="EndDate" class="date" ng-model="newEntity.EndDate" ng-disabled="fieldDisabled" />(基本用法)<br />
+                        <input type="text" class="date" ng-model="newEntity.EndDate2" min-date="newEntity.EndDate" ng-disabled="fieldDisabled" />(以上一個欄位值做為最小日期限制)<br />
+                        <input type="text" class="date" ng-model="newEntity.EndDate3" min-date="'2016/01/05'" max-date="'2016/01/25'" ng-disabled="fieldDisabled" />(以固定值做為最小與最大日期限制)<br />
+                        <input type="text" class="date" ng-model="newEntity.EndDate4" show-max-date="true" ng-disabled="fieldDisabled" />使用「最大日期」按鈕<br />
+                        <input type="text" class="date" ng-model="newEntity.EndDate5" min-date="'2016/01/05'" max-date="'2016/01/25'" show-max-date="true" ng-disabled="fieldDisabled" />已限定最大日期，並使用「最大日期」按鈕<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>時間</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">time</span>" /&gt;<br />
+                        <input type="text" name="StartTime" class="time" ng-model="newEntity.StartTime" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>IP位置</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">ipv4</span>" /&gt;<br />
+                        <input type="text" name="ClientIP" class="ipv4" ng-model="newEntity.ClientIP" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>限制英文</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" <span class="text-danger">letter-only</span> /&gt;<br />
+                        <input type="text" name="letterOnly" letter-only ng-model="newEntity.letterOnly" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>自動轉大寫</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" <span class="text-danger">uppercase</span> /&gt;<br />
+                        <input type="text" name="Uppercase" letter-only uppercase ng-model="newEntity.Uppercase" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>自動轉小寫</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" <span class="text-danger">lowercase</span> /&gt;<br />
+                        <input type="text" name="Lowercase" letter-only lowercase ng-model="newEntity.Lowercase" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>金額</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">amount</span>" /&gt;<br />
+                        <input type="text" name="Amount" class="amount" ng-model="newEntity.Amount" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>金額限制小數點位數</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">amount</span>" <span class="text-danger">amount-float</span>="<span class="text-info">小數的位數</span>" /&gt;<br />
+                        <input type="text" name="Amount" class="amount" amount-float="2" ng-model="newEntity.AmountFloat" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>金額顯示固定的小數點位數</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">amount</span>" <span class="text-danger">amount-float</span>="<span class="text-info">小數的位數</span>" <span class="text-danger">amount-fix-float</span>="<span class="text-info">true</span>" /&gt;<br />
+                        <input type="text" name="Amount" class="amount" amount-float="2" amount-fix-float="true" ng-model="newEntity.AmountFixFloat" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>金額顯限制輸入正負號</td>
+                    <td>樣式</td>
+                    <td class="nowrap">
+                        &lt;input type="text" class="<span class="text-danger">amount</span>" <span class="text-danger">no-operator</span>="<span class="text-info">布林值</span>" /&gt;<br />
+                        <input type="text" name="Amount" class="amount" no-operator="true" ng-model="newEntity.noOperator" ng-disabled="fieldDisabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="nowrap">dialog-field</td>
+                    <td>屬性</td>
+                    <td>
+                        &lt;input type="text" <span class="text-danger">dialog-field</span>="<span class="text-info">kind值</span>" /&gt;<br /><br />
+                        <label>可使用的屬性</label>
+                        <table class="table-desc">
+                            <thead>
+                                <tr><th>欄位說明</th><th>kind值</th><th>實例</th></tr>
+                            </thead>
+                            <tr>
+                                <th>群組</th>
+                                <td>area</td>
+                                <td>
+                                    <input type="text" dialog-field="area" ng-model="newEntity.Area" name-value="newEntity.AreaName" ng-disabled="fieldDisabled" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>tool-dialog</td>
+                    <td>屬性</td>
+                    <td>
+                <tr>
+                    <th>群組</th>
+                    <td>area</td>
+                    <td>
+                        <button type="button" class="btn-dialog" tool-dialog="{kind:'area', autoClose:true, callback:showData}" ng-disabled="fieldDisabled">...</button>
+                        <input type="text" tool-dialog="{kind:'area', autoClose:true, callback:showData}" ng-disabled="fieldDisabled" /><br />(所有可訂閱 click 事件的元素都能掛載)
+                    </td>
+                </tr>
+            </table>
+
+            <br />
+            <table class="table-list">
+                <tr>
+                    <td>autoComplete</td>
+                    <td>屬性</td>
+                    <td>
+                        &lt;input type="text" <span class="text-danger">auto-complete</span>="<span class="text-info">options</span>" /&gt;<br />
+                        <span class="text-info">options</span> = {<br />
+                        <table class="table-desc">
+                            <tr><th>屬性</th><th>說明</th><th>舉例</th></tr>
+                            <tr>
+                                <td>source</td>
+                                <td>取得自動完成資料的網址</td>
+                                <td>source: repository.getAutoCompleteData()<br />統一由 repository 管理網址</td>
+                            </tr>
+                            <tr>
+                                <td>count</td>
+                                <td>自動完成的提示資料的筆數。未設定時，會以全域的自動完成筆數進行設定。</td>
+                                <td>count: 10</td>
+                            </tr>
+                        </table>
+                        }
+                        <br />
+                        輸入(0或1)<input type="text" auto-complete="autoCompleteOpt" ng-model="newEntity.testData" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>已輸入幾個字</td>
+                    <td>標籤</td>
+                    <td class="nowrap">
+                        &lt;input name="textLength" type="text" ng-model="test.textLength" /&gt; <br />
+                        <span class="text-danger">&lt;text-length for="textLength" &lt;/text-length&gt;  </span>"
+                        <br />
+                        請輸入：<input name="textLength" type="text" ng-model="newEntity.textLength" />
+                        <text-length for="textLength"></text-length>
+                    </td>
+                </tr>
+                <tr>
+                    <td>allow-pattern</td>
+                    <td>屬性</td>
+                    <td>
+                        &lt;input type="text" <span class="text-danger">allow-pattern</span>="<span class="text-info">正規表示式(例：\d)</span>" /&gt;
+                        <br />
+                        <input type="text" name="allowPattern" ng-model="newEntity.allowPattern" allow-pattern="\d" />(只能輸入數字0-9)
+                    </td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" class="text-center">
+                            <button type="submit" class="btn" ng-disabled="myForm.$invalid">送出</button>
+                            <button type="button" class="btn" ng-click="reset()">重置表單</button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </form>
+</div>
+
+<h3>使用自訂服務 dialogService 顯示jQuery UI 的對話框</h3>
+<div class="innerBox" ng-controller="customServiceCtrl">
+    <h4 style="text-align:left;">messageDialog 一般訊息對話框</h4>
+<pre>
+呼叫 dialogService.<span class="info">messageDialog</span>(options) 開啟 dialog時，預設的 options 選項設定如下：
+{
+    kind: "info",
+    title: "系統訊息",
+    message: "",
+    callback: null
+}
+</pre>
+    <table class="table-desc">
+        <tr>
+            <th>選項</th>
+            <th>說明</th>
+        </tr>
+        <tr>
+            <td>kind</td>
+            <td>訊息類型。區分為 information(預設)、warning、error。</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>對話框標題。</td>
+        </tr>
+        <tr>
+            <td>message</td>
+            <td>訊息內容。可以是文字或是HTML內容。</td>
+        </tr>
+        <tr>
+            <td>callback</td>
+            <td>按確認後，要接著進行的callback處理函式。</td>
+        </tr>
+    </table>
+    <button type="button" class="btn" ng-click="openMsgDialog()">顯示訊息對話框</button>
+    <button type="button" class="btn" ng-click="openHtmlMsgDialog()">顯示訊息對話框(HTML內容)</button>
+    <hr />
+    <h4 style="text-align:left;">confirmDialog 確認訊息對話框</h4>
+<pre>
+呼叫 dialogService.<span class="info">confirmDialog</span>(options) 開啟 dialog時，預設的 options 選項設定如下：
+{
+    kind: "warning",
+    title: "確認訊息",
+    message: "",
+    modal: true,
+    callback: null
+}
+</pre>
+    <table class="table-desc">
+        <tr>
+            <th>選項</th>
+            <th>說明</th>
+        </tr>
+        <tr>
+            <td>kind</td>
+            <td>訊息類型。區分為 information(預設)、warning、error。</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>對話框標題。</td>
+        </tr>
+        <tr>
+            <td>message</td>
+            <td>訊息內容。可以是文字或是HTML內容。</td>
+        </tr>
+        <tr>
+            <td>modal</td>
+            <td>是否為強制回應(會Block畫面)。預設為 true。</td>
+        </tr>
+        <tr>
+            <td>callback</td>
+            <td>按下按鈕後，要接著進行的callback處理函式。</td>
+        </tr>
+    </table>
+    <button type="button" class="btn" ng-click="openConfirmDialog()">確認對話框</button>
+</div>
+
+<h3>分頁工具列</h3>
+<div class="innerBox" ng-controller="paginCtrl">
+    &lt;div <span class="text-danger">pagination</span>="<span class="text-info">options</span>" /&gt;<br />
+    <span class="text-info">options</span> = {
+    <table class="table-desc">
+        <tr>
+            <th>屬性</th>
+            <th>說明</th>
+            <th>舉例</th>
+        </tr>
+        <tr>
+            <td>pageSize</td>
+            <td>每筆資料筆數</td>
+            <td>pageSize: 50<br />預設為 angular 中自訂的 constant: defaultPageCount 值</td>
+        </tr>
+        <tr>
+            <td>length</td>
+            <td>顯示的頁碼數量(預設為 5)</td>
+            <td>length: 10</td>
+        </tr>
+        <tr>
+            <td>auto</td>
+            <td>是否在載入完成時，自動取得資料。<br />預設值為 false，在 data 選項值改變時，才會載入資料。</td>
+            <td>auto: true</td>
+        </tr>
+        <tr>
+            <td>url</td>
+            <td>資料來源網址</td>
+            <td>url: repository.getDataUrl()<br />網址仍由repository統一管理</td>
+        </tr>
+        <tr>
+            <td>data</td>
+            <td>查詢條件，為物件格式</td>
+            <td>data: { kind:"1", dateS:"2015/01/01" }</td>
+        </tr>
+        <tr>
+            <td>callback</td>
+            <td>取回目前頁面資料後的回呼處理函式，用來回填 scope 資料</td>
+            <td>
+                callback: function(result) {<br />
+                <span style="color:darkgreen">&nbsp;&nbsp;&nbsp;&nbsp;// 回填 scope 資料</span><br />
+                }
+            </td>
+        </tr>
+    </table>
+    }
+
+    <table>
+        <tr>
+            <td>門市店號</td>
+            <td><input type="text" ng-model="store.StoreID" /></td>
+        </tr>
+        <tr>
+            <td>門市名稱</td>
+            <td><input type="text" ng-model="store.StoreNM" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button" ng-click="queryStore(store)">查詢</button></td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>門市店號</th>
+                <th>門市名稱</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in items">
+                <td>{{ item.Id }}</td>
+                <td>{{ item.Name }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div pagination="pagingOpts"></div>
+</div>
+
+<h3>Client端 分頁工具列</h3>
+<div class="innerBox" ng-controller="paginCtrl2">
+    &lt;div <span class="text-danger">local-pagination</span>="<span class="text-info">options</span>" /&gt;<br />
+    <span class="text-info">options</span> = {
+    <table class="table-desc">
+        <tr>
+            <th>屬性</th>
+            <th>說明</th>
+            <th>舉例</th>
+        </tr>
+        <tr>
+            <td>pageSize</td>
+            <td>每筆資料筆數</td>
+            <td>pageSize: 50<br />預設為 angular 中自訂的 constant: defaultPageCount 值</td>
+        </tr>
+        <tr>
+            <td>totalItems</td>
+            <td>Client端資料的總筆數</td>
+            <td>totalItems: $scope.items.length</td>
+        </tr>
+        <tr>
+            <td>length</td>
+            <td>顯示的頁碼數量(預設為 5)</td>
+            <td>length: 10</td>
+        </tr>
+        <tr>
+            <td>auto</td>
+            <td>是否在載入完成時，自動進行分頁處理。<br />預設值為 false，在 data 選項值改變時，才會進行分頁處理。</td>
+            <td>auto: true</td>
+        </tr>
+        <tr>
+            <td>toEndPage</td>
+            <td>處理分頁處理時，不回到第1頁，而是移至最後一頁(預設為 false)</td>
+            <td>toEndPage: true</td>
+        </tr>
+        <tr>
+            <td>callback</td>
+            <td>切換頁碼後的回呼處理函式，會傳入切換頁碼後的所在頁數</td>
+            <td>
+                callback: function(<span class="text-info">pageNo</span>) {<br />
+                <span style="color:darkgreen">&nbsp;&nbsp;&nbsp;&nbsp;// 以更新後的頁碼重設filter條件</span><br />
+                }
+            </td>
+        </tr>
+    </table>
+    }
+    <p></p>
+    <p>目前頁碼：{{ pageNo }}</p>
+    <button type="button" ng-click="changeTotalItems()">修改totalItem，讓分頁更新</button>
+    <div local-pagination="pagingOpts"></div>
+</div>
+
+<h3>圖片上傳</h3>
+<div class="innerBox" ng-controller="customDirectiveCtrl">
+    <table class="table-list">
+        <thead>
+            <tr>
+                <th>欄位</th>
+                <th>使用限制</th>
+                <th style="width:80%">使用方式</th>
+                <th style="width:20%">實例</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>imageUpload</td>
+            <td>html</td>
+            <td>
+                &lt;image-upload ng-model="imageUrl" max-size="200" img-file="imgFile" ng-disabled="fieldDisabled" &gt;  &lt;/image-upload&gt; <br />
+                <div>圖片名稱由後端自己決定是否要給新檔名</div><br />
+                <label>可使用的屬性</label>
+                <table class="table-desc">
+                    <thead>
+                        <tr>
+                            <th>屬性</th>
+                            <th>說明</th>
+                            <th>舉例</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="nowrap">img-file</td>
+                        <td><span class="text-danger">必要</span><br />選完檔案後的File會存在此</td>
+                        <td class="nowrap">img-file="imgFile"<br />或<br />img-file="scope_value" </td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap">ng-disabled</td>
+                        <td><span class="text-danger">非必要</span><br />是否開放修改</td>
+                        <td class="nowrap">ng-disabled="fieldDisabled"</td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap">max-size</td>
+                        <td><span class="text-danger">非必要</span><br />圖片最大長度寬度</td>
+                        <td class="nowrap">max-size="200"</td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap">water</td>
+                        <td><span class="text-danger">非必要</span><br />圖片浮水印</td>
+                        <td class="nowrap">water</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <div>此範例是存檔時, 將File和Model一起傳到Controller</div>
+                <div>
+                    <image-upload ng-model="ImageUrl" img-file="imgFile" max-size="200"></image-upload>
+                </div>
+                <br />
+                <div>
+                    <button type="button" class="btn" ng-click="sendImageFileAndModel()"><span class="btn-icon btn-icon-save"></span>存檔</button>
+                    <button type="button" class="btn" ng-click="resetData()"><span class="btn-icon btn-icon-save"></span>取消設定</button>
+                </div>
+            </td>
+        </tr>
+        @*<tr>
+            <td>浮水印範例</td>
+            <td>html</td>
+            <td>
+                &lt;image-upload ng-model="imageWaterUrl" <span class="text-danger">water</span> &gt;&lt;/image-upload&gt;
+            </td>
+            <td><image-upload ng-model="imageWaterUrl" water></image-upload></td>
+        </tr>*@
+    </table>
+</div>
+
+<h3>Enter切換(entertab)</h3>
+<div class="innerBox" ng-controller="entertabCtrl">
+    用Enter取代Tab 移至下一個"被指定且可focus"之對象
+    <div entertab-block="myBlock">
+        <table class="table-form">
+            <tr>
+                <th>input</th>
+                <td><input entertab /></td>
+            </tr>
+            <tr>
+                <th>dialogfield</th>
+                <td><input dialog-field="store" ng-model="store" entertab /></td>
+            </tr>
+            <tr>
+                <th>select</th>
+                <td>
+                    <select entertab>
+                        <option>請選擇</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>button</th>
+                <td>
+                    <button entertab>Press Space</button><br>
+                    (可用 但是綁上去之後Entertab事件跟Button會同時觸發 不優)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    radio button
+                </th>
+                <td>
+                    <input type="radio" name="radio" ng-model="radio" value="1" entertab />1
+                    <input type="radio" name="radio" ng-model="radio" value="2" entertab />2
+                    <input type="radio" name="radio" ng-model="radio" value="3" entertab />3<br>
+                    (可用 但是會無法使用方向鍵操控)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    radio button(未綁entertab)
+                </th>
+                <td>
+                    <input type="radio" name="radio2" ng-model="radio2" value="1" />1
+                    <input type="radio" name="radio2" ng-model="radio2" value="2" />2
+                    <input type="radio" name="radio2" ng-model="radio2" value="3" />3
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    textarea
+                </th>
+                <td>
+                    <textarea ng-model="area" entertab /><br>
+                    (可用 但是Enter一樣會被搶走 無法換行)
+                </td>
+            </tr>
+        </table>
+        <table class="table-list">
+            <thead>
+                <tr>
+                    <th colspan="3">myBlock 刪除沒有reset</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in items">
+                    <td><input ng-model="item.a" entertab /></td>
+                    <td><input ng-model="item.b" entertab /></td>
+                    <td><input ng-model="item.c" entertab /></td>
+                    <td><button ng-click="remove($index)">刪除列</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    若是獨立區塊則另建
+    <div entertab-block="myBlock2">
+        <table class="table-list">
+            <thead>
+                <tr>
+                    <th colspan="3">獨立Block 刪除有reset</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item2 in items2">
+                    <td><input ng-model="item2.a" entertab /></td>
+                    <td><input ng-model="item2.b" entertab /></td>
+                    <td><input ng-model="item2.c" entertab /></td>
+                    <td><button ng-click="remove2($index)">刪除列</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h3>刪除確認</h3>
+<div class="innerBox" ng-controller="deleteConfirmCtrl">
+    <p>掛載 delete-confirm 屬性，會自動加上統一的刪除確認訊息，若取消，則會停止 ng-click 事件處理，若確認，則會繼續 ng-click 處理。</p>
+    <table class="table-desc">
+        <thead>
+            <tr>
+                <th>說明</th>
+                <th>範例</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>未使用 delete-confirm</td>
+            <td><button type="button" class="btn" ng-click="deleteData()">刪除</button></td>
+        </tr>
+        <tr>
+            <td>使用 delete-confirm</td>
+            <td><button type="button" class="btn" ng-click="deleteData()" delete-confirm>刪除</button></td>
+        </tr>
+    </table>
+
+    <hr />
+    <h4>用於多筆資料</h4>
+    搭配 ng-repeat，使用方式一樣。就算 ng-click 要執行的函數有帶參數，也能被正確執行，例如： ng-click="function(data, $index)"
+    <p><button type="button" class="btn" ng-click="resetItems()">重新載入多筆資料</button></p>
+    <table class="table-list">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>功能</th>
+            </tr>
+        </thead>
+        <tr ng-repeat="item in items">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>
+                <button type="button" class="btn" ng-click="deleteOneItem(item)" delete-confirm>刪除</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<h3>查無資料統一訊息</h3>
+<div class="innerBox" ng-controller="noitemCtrl">
+    <p>
+        &lt;ALL <span class="text-danger">noitem</span>="<span class="text-info">ng-repeat列舉的scope變數</span>"&gt;&lt;/ALL&gt;<br />
+        在任意 tag 上(建議 div)使用 noitem 屬性，並將要列舉的 scope 變數指定給 noitem 屬性<br />
+        當 scope 變數有值(不為 null/undefined)且為空陣列時，則會顯示「查無資料」訊息，若為有資料的陣列時，則會移除「查無資料」訊息
+    </p>
+    <hr />
+    <button type="button" class="btn" ng-click="queryHasData()">查詢有資料</button>
+    <button type="button" class="btn btn-warning" ng-click="queryNoData()">查詢沒有資料</button>
+
+    <table class="table-list" ng-show="items && items.length>0">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+        <tr ng-repeat="item in items">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+        </tr>
+    </table>
+    <div noitem="items"></div>
+</div>
+<h3>把選擇的檔案指給ngModel填的物件</h3>
+<div class="innerBox" ng-controller="fileUploadCtrl">
+    <p>
+        &lt;file-upload ng-model="yourObject" ng-change="yourEvent" params="fileOptions" /&gt;
+        <br />
+    </p>
+
+    <p>範例:</p>
+    <input type="button" ng-click="addOne()" value="加入新的檔案" />
+    <div ng-repeat="fm in SimpleModelList">
+        <div>
+            陣列位置: {{$index}}
+            <p>Name : {{fm.Name}}</p>
+            <p>Type : {{fm.MIMEType}}</p>
+            <p>Size : {{fm.size}}</p>
+            <file-upload ng-change="assignValue(fm)" ng-model="fm.fileList" params="fm.params" />
+        </div>
+        <br />
+    </div>
+    <br />
+    物件內容:<pre>{{SimpleModelList | json}}</pre>
+    <hr />
+</div>

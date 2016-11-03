@@ -1,0 +1,13 @@
+﻿/********** 配送商門市對應維護 **********/
+.BAC-delivery-range .sub-table > thead th {
+    text-align: center;
+}
+
+.BAC-delivery-range .inline {
+    display: inline-block;
+}
+
+.BAC-delivery-range .th-setting-content {
+    vertical-align: top;
+    padding-top: 15px;
+}

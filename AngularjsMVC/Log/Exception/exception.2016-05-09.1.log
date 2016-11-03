@@ -1,0 +1,12 @@
+----------------------------------------
+2016/5/6 下午 04:32:55	[Error]	[HOWHOWSONY-12WE]	Cannot compare elements of type 'System.Collections.Generic.IEnumerable`1[[TopPos.Data.Entities.BAC_Store_M, TopPos.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. Only primitive types, enumeration types and entity types are supported.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58
+----------------------------------------
+2016/5/6 下午 04:33:23	[Error]	[HOWHOWSONY-12WE]	Cannot compare elements of type 'System.Collections.Generic.IEnumerable`1[[TopPos.Data.Entities.BAC_Store_M, TopPos.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. Only primitive types, enumeration types and entity types are supported.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58
+----------------------------------------
+2016/5/6 下午 04:34:19	[Error]	[HOWHOWSONY-12WE]	Cannot compare elements of type 'System.Collections.Generic.IEnumerable`1[[TopPos.Data.Entities.BAC_Store_M, TopPos.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. Only primitive types, enumeration types and entity types are supported.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58
+----------------------------------------
+2016/5/6 下午 04:36:23	[Error]	[HOWHOWSONY-12WE]	The specified type member 'DeviceFlag' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58

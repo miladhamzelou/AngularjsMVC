@@ -1,0 +1,168 @@
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Web.dll.config
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Web.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Web.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Antlr3.Runtime.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\AutoMapper.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\ClosedXML.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\DelegateDecompiler.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\DocumentFormat.OpenXml.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\LinqToExcel.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\log4net.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Mvc.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Mono.Reflection.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Newtonsoft.Json.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Remotion.Data.Linq.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Remotion.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Remotion.Interfaces.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\ReportViewerForMvc.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\StyleCop.CSharp.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\StyleCop.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Helpers.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Mvc.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Optimization.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Razor.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Razor.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Data.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.ACC.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.BAC.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.SPR.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\WebActivatorEx.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\WebGrease.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\EntityFramework.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\EntityFramework.SqlServer.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\CodeFirstStoreFunctions.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Build.Utilities.v3.5.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.ACC.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.BAC.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Data.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.SPR.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Antlr3.Runtime.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\AutoMapper.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\ClosedXML.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\LinqToExcel.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\log4net.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Mvc.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Newtonsoft.Json.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Helpers.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Mvc.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Optimization.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.Razor.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Razor.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\EntityFramework.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\EntityFramework.SqlServer.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-CHT\Microsoft.Build.Utilities.v3.5.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\obj\Debug\TopPos.Web.csprojResolveAssemblyReference.cache
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\obj\Debug\TopPos.Web.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\obj\Debug\TopPos.Web.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.STR.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.STR.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Resources.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.BCS.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.BCS.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.CPN.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.GDL.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.PAC.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.PRH.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.SIF.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.CPN.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.GDL.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.PAC.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.PRH.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.SIF.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Microsoft.SqlServer.Types.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Common.ZIP.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Common.ZIP.pdb
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Ionic.Zip.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Ionic.Zip.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Magick.NET-Q16-AnyCPU.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\Magick.NET-Q16-AnyCPU.xml
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.Common.dll
+D:\Souce work\NEC\Cosmed-Db\TopPos.Web\bin\TopPos.Services.Common.pdb
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\AngularJSMVC.dll.config
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\AngularJSMVC.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\AngularJSMVC.pdb
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\DelegateDecompiler.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\DocumentFormat.OpenXml.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\EntityFramework.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Magick.NET-Q16-AnyCPU.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Mono.Reflection.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Newtonsoft.Json.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\ReportViewerForMvc.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\StyleCop.CSharp.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\StyleCop.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Helpers.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Mvc.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Optimization.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Razor.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\WebActivatorEx.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\WebGrease.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\EntityFramework.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Magick.NET-Q16-AnyCPU.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\Newtonsoft.Json.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Helpers.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Mvc.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Optimization.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.Razor.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\bin\zh-CHT\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\obj\Debug\TopPos.Web.csprojResolveAssemblyReference.cache
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\obj\Debug\AngularJSMVC.dll
+C:\Users\howhowleo\Desktop\Cosmed-Db\TopPos.Web\obj\Debug\AngularJSMVC.pdb

@@ -1,0 +1,3 @@
+----------------------------------------
+2016/7/11 下午 03:05:56	[Error]	[HOWHOWSONY-12WE]	The object cannot be deleted because it was not found in the ObjectStateManager.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\BasicRepository.cs	line:197

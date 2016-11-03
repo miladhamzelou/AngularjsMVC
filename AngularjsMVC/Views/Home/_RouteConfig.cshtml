@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MenuItem>
+
+var route = function(path) {
+    return {
+        templateUrl:baseUrl + path,
+        resolve: new lazyLoadResolver(path)
+    };
+}
+
+var lazyLoadResolver = function(path) {
+    return {
+        lazy: ['$ocLazyLoad', '$log', function($ocLazyLoad, $log) {
+            return $ocLazyLoad.load({
+                cache: false,
+                files: [
+                    'Scripts/Repository/' + path + 'Repository.js',
+                    'Scripts/Controller/' + path + 'Controller.js'
+                ]
+            })
+            .then(function success(){
+                $log.info('Lazy loading files success, path = ' + path);
+            }, function error(){
+                $log.error('Lazy loading files fail, path = ' + path);
+            });
+        }]
+    };
+}
+
+@foreach (MenuItem item in Model)
+{
+<text>$routeProvider.when('@item.Route', route('@item.Path'));</text>
+}
+
+$routeProvider.when("/main.ChangePassword", { templateUrl: baseUrl + "BAC/ChangeUserPassword", resolve: lazyLoadResolver("BAC/ChangeUserPassword") });

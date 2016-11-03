@@ -1,0 +1,23 @@
+----------------------------------------
+2016/4/28 下午 01:13:29	[Error]	[HOWHOWSONY-12WE]	An error occurred while executing the command definition. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:57
+An error occurred while executing the command definition. See the inner exception for details.
+----------------------------------------
+2016/4/28 下午 01:21:30	[Error]	[HOWHOWSONY-12WE]	An error occurred while executing the command definition. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:57
+An error occurred while executing the command definition. See the inner exception for details.
+----------------------------------------
+2016/4/28 下午 01:28:23	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CalendarController.cs	line:33
+----------------------------------------
+2016/4/28 下午 01:28:43	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CalendarController.cs	line:33
+----------------------------------------
+2016/4/28 下午 01:48:44	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CalendarController.cs	line:33
+----------------------------------------
+2016/4/28 下午 02:02:51	[Error]	[HOWHOWSONY-12WE]	The object cannot be deleted because it was not found in the ObjectStateManager.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\BasicRepository.cs	line:197
+----------------------------------------
+2016/4/28 下午 02:04:11	[Error]	[HOWHOWSONY-12WE]	The object cannot be deleted because it was not found in the ObjectStateManager.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\BasicRepository.cs	line:197

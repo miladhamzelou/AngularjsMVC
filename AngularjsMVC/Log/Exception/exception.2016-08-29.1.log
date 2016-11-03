@@ -1,0 +1,56 @@
+----------------------------------------
+2016/8/25 下午 02:48:42	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 02:53:13	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:03:14	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:05:56	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:13:29	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:15:35	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:18:52	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:22:22	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:59
+An error occurred while reading from the store provider's data reader. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:32:45	[Error]	[HOWHOWSONY-12WE]	An error occurred while updating the entries. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\DbContextProxy.cs	line:65
+An error occurred while updating the entries. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:32:49	[Error]	[HOWHOWSONY-12WE]	An error occurred while updating the entries. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\DbContextProxy.cs	line:65
+An error occurred while updating the entries. See the inner exception for details.
+----------------------------------------
+2016/8/25 下午 03:33:02	[Error]	[HOWHOWSONY-12WE]	An error occurred while updating the entries. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\DbContextProxy.cs	line:65
+An error occurred while updating the entries. See the inner exception for details.
+----------------------------------------
+2016/8/26 下午 02:42:19	[Error]	[HOWHOWSONY-12WE]	LINQ to Entities does not recognize the method 'System.String ToString(System.String)' method, and this method cannot be translated into a store expression.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Infrastructure\Common\Export\OpenXmlExcelWriter.cs	line:325
+----------------------------------------
+2016/8/26 下午 02:44:01	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CategoryController.cs	line:344
+----------------------------------------
+2016/8/26 下午 02:44:16	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CategoryController.cs	line:344
+----------------------------------------
+2016/8/26 下午 02:47:01	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CategoryController.cs	line:344

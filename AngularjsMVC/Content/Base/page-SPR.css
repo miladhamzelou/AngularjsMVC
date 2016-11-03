@@ -1,0 +1,86 @@
+﻿/********** 促銷主檔維護 **********/
+.SPR-promotion .tabs .table-form {
+    width: 100%;
+}
+
+.SPR-promotion .tabs .table-form.auto-width {
+    width: auto;
+}
+
+.SPR-promotion .desc-discount {
+    color: #d44950;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.SPR-promotion .desc-discount__type {
+    margin-left: 30px;
+}
+
+.SPR-promotion li.customer-type {
+    border:none;
+    background-color:transparent;
+}
+
+.SPR-promotion .customer-type > .text-info {
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+.SPR-promotion .inline {
+    display: inline-block;
+}
+
+.SPR-promotion .hidden {
+    display: none;
+}
+
+.SPR-promotion .align-top {
+    vertical-align: top;
+}
+
+.SPR-promotion .error-grid h4 {
+    color: #d44950;
+}
+
+.SPR-promotion .date[ng-show=false] + .ui-datepicker-trigger {
+    display: none;
+}
+
+.SPR-promotion fieldset[disabled] .date + .ui-datepicker-trigger {
+    display: none;
+}
+
+.SPR-promotion .view-history-button {
+    position: absolute;
+    left: 640px;
+    top: 26px;
+}
+
+.SPR-promotion .copy-details-button {
+    margin-top: -6px;
+}
+
+.check-rank-container {
+    width: 195px;
+    height: 70px;
+}
+
+.check-pro-period-contanier {
+    width: 240px;
+    height: 70px;
+}
+
+/********** 促銷共通主檔 **********/
+.SPR-promotion .txt-pro-id + input {
+    display: none;
+}
+
+.SPR-promotion .txt-activity-no {
+    text-transform: uppercase;
+}
+
+.SPR-promotion .txt-activity-name {
+    width: 575px;
+}

@@ -1,0 +1,21 @@
+﻿.icon01, .icon02, .icon03, .icon04, .icon05{
+    float: left;
+    margin: 3px 5px 2px 12px;
+    width: 16px;
+    height: 24px;
+}
+.icon01 {
+    background: url(images/header/icon_banner.png) no-repeat;
+}
+.icon02 {
+    background: url(images/header/icon_menu.png) no-repeat;
+}
+.icon03 {
+    background: url(images/header/icon_announcement.png) no-repeat;
+}
+.icon04 {
+    background: url(images/header/icon_logout.png) no-repeat;
+}
+.icon05 {
+    background: url(images/header/icon_password.png) no-repeat;
+}

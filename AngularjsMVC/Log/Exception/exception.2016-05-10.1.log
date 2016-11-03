@@ -1,0 +1,19 @@
+----------------------------------------
+2016/5/9 下午 02:09:31	[Error]	[HOWHOWSONY-12WE]	The entity or complex type 'TopPos.Data.Entities.SCStoreDeviceDTO' cannot be constructed in a LINQ to Entities query.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58
+----------------------------------------
+2016/5/9 下午 02:13:53	[Error]	[HOWHOWSONY-12WE]	The specified cast from a materialized 'System.Decimal' type to the 'System.String' type is not valid.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58
+----------------------------------------
+2016/5/9 下午 04:06:03	[Error]	[HOWHOWSONY-12WE]	The object cannot be deleted because it was not found in the ObjectStateManager.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\BasicRepository.cs	line:197
+----------------------------------------
+2016/5/9 下午 04:07:11	[Error]	[HOWHOWSONY-12WE]	An error occurred while updating the entries. See the inner exception for details.
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\DbContextProxy.cs	line:52
+An error occurred while updating the entries. See the inner exception for details.
+----------------------------------------
+2016/5/10 上午 11:52:17	[Error]	[HOWHOWSONY-12WE]	拒絕存取路徑 '\\10.2.126.166\Share\Images'。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\Common\FileController.cs	line:49
+----------------------------------------
+2016/5/10 上午 11:55:41	[Error]	[HOWHOWSONY-12WE]	由於另一個處理序正在使用檔案 '\\10.2.126.166\Share\Images\CouponImage\0b211c3b27bb721f6911e7831146ee9c.JPG'，所以無法存取該檔案。
+Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\Common\FileController.cs	line:52

@@ -1,30 +1,43 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>AngularjsMVC</title>
-    @Styles.Render(
-        "~/Content/css",
-        "~/Content/themes/jqueryui"
-    )
-    @Scripts.Render(
-        "~/bundles/jquery",
-        "~/bundles/jqueryui",
-        "~/bundles/ng",
-        "~/bundles/ng-Module",
-        "~/bundles/ng-Service",
-        "~/bundles/ng-Controller"
-    )
 
+<html ng-app="topPos">
+<head>
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>AngularJSMVC</title>
+    @Styles.Render("~/Content/jqueryui")
+    @Styles.Render("~/Content/basecss")
+
+    @Scripts.Render("~/Scripts/jquery")
+    @Scripts.Render("~/Scripts/ng")
+    @Scripts.Render("~/Scripts/thirdparty")
+    <script type="text/javascript" src="@Url.Action("NgDynamic", "Home")"></script>
+    @Scripts.Render("~/Scripts/ngcustom")
+    @Scripts.Render("~/Scripts/jqueryui")
+    @Scripts.Render("~/Scripts/jqueryval")
 </head>
 <body>
-    @if (ViewBag.IsHome == null)
-    {
-        @Html.ActionLink("Home", "Index", "Home")
-    }
-
-    @RenderBody()
-    @RenderSection("scripts", required: false)
+    <div id="main-blocks" ng-controller="mainCtrl">
+        <div id="main-body">
+            <div id="main-menu" ng-show="block.mainMenu" ng-controller="mainMenu">
+                <div class="menu">
+                    <ul>
+                        <li class='node'>
+                            <h2>Angularjs MVC</h2>
+                            <ul>
+                                <li><h2><a href='#/CustomDirectiveDemo'>CustomDirectiveDemo</a></h2></li>
+                                <li><h2><a href='#/FormValidation'>FormValidation</a></h2></li>
+                                <li><h2><a href="@Url.Content("/Content/base/html/Keyframe.html")" target="_blank">CSS3</a></h2></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main-content" ng-class="mainContentWidth()">
+                <div id="main-content-view" ng-view class="content">@RenderBody()</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
