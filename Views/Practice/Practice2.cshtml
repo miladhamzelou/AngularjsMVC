@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "AngularJS Template Directive 練習";
+}
+
+<h2>AngularJS Template Directive 練習</h2>
+
+<p>請於本頁練習以下的Template Directive</p>
+<div ng-app="phonecatApp">
+    <ol>
+        <li>請練習 ng-repeat</li>
+        <table ng-controller="PhoneListCtrl" class="list-table">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>電話</th>
+                    <th>年齡</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="phone in phones">
+                    <td ng-bind="phone.name"></td>
+                    <td ng-bind="phone.mobile"></td>
+                    <td ng-bind="phone.age" style="text-align: right"></td>
+                </tr>
+            </tbody>
+        </table>
+        <li>請使用 ng-include 載入HTML文件</li>
+        <ng-include src="'@Url.Content("~/Content/html/Page1.html")'"></ng-include>
+    </ol>
+</div>
+@section scripts{
+    <script type="text/javascript">
+        var phonecatApp = angular.module('phonecatApp', []);
+
+        phonecatApp.controller('PhoneListCtrl', function ($scope) {
+            $scope.phones = [
+               { 'name': 'John', 'mobile': '0909123456', 'age': 20 },
+               { 'name': 'Mary', 'mobile': '0909123457', 'age': 30 },
+               { 'name': 'Jack', 'mobile': '0909123458', 'age': 25 }
+            ];
+
+        });
+    </script>
+}
