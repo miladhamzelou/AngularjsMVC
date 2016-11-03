@@ -1,6 +1,6 @@
-C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\NECPractice.dll.config
-C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\NECPractice.dll
-C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\NECPractice.pdb
+C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\AngularjsMVC.dll.config
+C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\AngularjsMVC.dll
+C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\AngularjsMVC.pdb
 C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\Antlr3.Runtime.dll
 C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\EntityFramework.dll
 C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\EntityFramework.SqlServer.dll
@@ -31,5 +31,5 @@ C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\System.Web.WebPages.Deploy
 C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\System.Web.WebPages.Razor.xml
 C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\zh-Hant\EntityFramework.resources.dll
 C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
-C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\obj\Debug\NECPractice.dll
-C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\obj\Debug\NECPractice.pdb
+C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\obj\Debug\AngularjsMVC.dll
+C:\Users\howhowleo\Desktop\HowardGit\AngularjsMVC\obj\Debug\AngularjsMVC.pdb

@@ -9,21 +9,22 @@
 
 namespace AngularjsMVC.Models
 {
+    using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-
+    
     public partial class DemoDBEntities : DbContext
     {
         public DemoDBEntities()
             : base("name=DemoDBEntities")
         {
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-
+    
         public DbSet<Interest> Interest { get; set; }
     }
 }
