@@ -96,3 +96,8 @@ a
     border:2px dashed green;
     padding: 5px 10px;
 }
+
+.Container
+{
+    padding: 15px;
+}

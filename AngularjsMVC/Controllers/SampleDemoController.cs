@@ -2,8 +2,13 @@
 
 namespace AngularjsMVC.Controllers
 {
-    public class AjaxController : Controller
+    public class SampleDemoController : Controller
     {
+        public ActionResult SampleDemo()
+        {
+            return View();
+        }
+
         public JsonResult GetItems()
         {
             Item[] items = {
@@ -26,12 +31,6 @@ namespace AngularjsMVC.Controllers
 
 
             return Json(phones, JsonRequestBehavior.AllowGet);
-        }
-
-        public string GetXMLItems()
-        {
-            Response.ContentType = "application/xml";
-            return "<?xml version=\"1.0\" encoding=\"utf-8\"?><items></items>";
         }
 
         class Item

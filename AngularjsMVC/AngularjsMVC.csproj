@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularjsPractice</RootNamespace>
-    <AssemblyName>AngularjsPractice</AssemblyName>
+    <RootNamespace>NECPractice</RootNamespace>
+    <AssemblyName>NECPractice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -133,9 +133,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AjaxController.cs" />
+    <Compile Include="Controllers\SampleDemoController.cs" />
+    <Compile Include="Controllers\UnityDemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -154,10 +154,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EFModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Vendor_D.cs">
-      <DependentUpon>EFModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Vendor_M.cs">
+    <Compile Include="Models\Interest.cs">
       <DependentUpon>EFModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -167,6 +164,9 @@
     <Content Include="App_Data\TestDB_log.ldf">
       <DependentUpon>TestDB.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\Angularjs\Controller.js" />
+    <Content Include="Content\Angularjs\Module.js" />
+    <Content Include="Content\Angularjs\Service.js" />
     <Content Include="Content\html\Page1.html" />
     <Content Include="Content\themes\jqueryui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Content\themes\jqueryui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
@@ -234,16 +234,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Demo\Demo1.cshtml" />
+    <Content Include="Views\UnityDemo\UnityDemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Demo\Demo2.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Demo\Demo3.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Demo\Demo4.cshtml" />
+    <Content Include="Views\SampleDemo\SampleDemo.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -261,7 +255,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3334</DevelopmentServerPort>
+          <DevelopmentServerPort>2604</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:2214/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

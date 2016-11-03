@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title - NEC練習題</title>
+    <title>AngularjsMVC</title>
     @Styles.Render(
         "~/Content/css",
         "~/Content/themes/jqueryui"
@@ -11,15 +11,19 @@
     @Scripts.Render(
         "~/bundles/jquery",
         "~/bundles/jqueryui",
-        "~/bundles/ng"
+        "~/bundles/ng",
+        "~/bundles/ng-Module",
+        "~/bundles/ng-Service",
+        "~/bundles/ng-Controller"
     )
+
 </head>
 <body>
-    @if (ViewBag.IsHome==null)
+    @if (ViewBag.IsHome == null)
     {
-        @Html.ActionLink("回首頁", "Index", "Home")
+        @Html.ActionLink("Home", "Index", "Home")
     }
-    
+
     @RenderBody()
     @RenderSection("scripts", required: false)
 </body>

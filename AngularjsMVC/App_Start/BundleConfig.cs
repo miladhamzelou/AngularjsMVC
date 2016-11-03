@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AngularjsMVC
+namespace NECPractice
 {
     public class BundleConfig
     {
@@ -11,6 +11,12 @@ namespace AngularjsMVC
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include("~/Scripts/jquery-ui.js"));
             bundles.Add(new ScriptBundle("~/bundles/ng").Include("~/Scripts/angular.js"));
 
+            //added by Nick 2016-10-14
+            bundles.Add(new ScriptBundle("~/bundles/ng-Module").Include("~/Content/Angularjs/Module.js"));
+            bundles.Add(new ScriptBundle("~/bundles/ng-Service").Include("~/Content/Angularjs/Service.js"));
+            bundles.Add(new ScriptBundle("~/bundles/ng-Controller").Include("~/Content/Angularjs/Controller.js"));
+            
+            
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/Site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/jqueryui").Include(

@@ -1,6 +1,6 @@
-C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\AngularjsPractice.dll.config
-C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\AngularjsPractice.dll
-C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\AngularjsPractice.pdb
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\NECPractice.dll.config
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\NECPractice.dll
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\NECPractice.pdb
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\Antlr3.Runtime.dll
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\EntityFramework.dll
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\EntityFramework.SqlServer.dll
@@ -29,6 +29,8 @@ C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\System.Web.Razor.xml
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\System.Web.WebPages.xml
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\System.Web.WebPages.Deployment.xml
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
 C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\obj\Debug\AngularjsMVC.csprojResolveAssemblyReference.cache
-C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\obj\Debug\AngularjsPractice.dll
-C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\obj\Debug\AngularjsPractice.pdb
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\obj\Debug\NECPractice.dll
+C:\Users\ext_howardl\Desktop\demo\AngularjsMVC\obj\Debug\NECPractice.pdb

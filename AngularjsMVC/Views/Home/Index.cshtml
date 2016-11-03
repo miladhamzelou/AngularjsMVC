@@ -1,25 +1,18 @@
 ﻿@{
-    ViewBag.Title = "Angularjs MVC Demo";
+    ViewBag.Title = "首頁";
 }
 
-<h1>AngularjsMVC Demo</h1>
+<h1>AngularJS MVC</h1>
 
 <table>
     <tr>
-        <td style="vertical-align:top;">
-            <h2>Software Requirement</h2>
-            <ol>
-                <li>Visual Studio 2015</li>
-            </ol>
-        </td>
-        <td style="vertical-align:top;padding-left:50px;">
-            <h2>Sample Demo</h2>
-            <ol>
-                <li>@Html.ActionLink("AngularJS 資料繫結", "Demo1", "Demo")</li>
-                <li>@Html.ActionLink("AngularJS Template Directive ", "Demo2", "Demo")</li>
-                <li>@Html.ActionLink("AngularJS Filter", "Demo3", "Demo")</li>
-                <li>@Html.ActionLink("AngularJS Ajax Request", "Demo4", "Demo")</li>
-            </ol>
+        <td style="padding-left:50px;">
+            <ul>
+                <li>@Html.ActionLink("Sample Demo", "SampleDemo", "SampleDemo")</li>
+            </ul>
+            <ul>
+                <li>@Html.ActionLink("Unity Demo", "UnityDemo", "UnityDemo")</li>
+            </ul>
         </td>
     </tr>
 </table>
