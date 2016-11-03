@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "AngularJS 資料繫結";
+}
+
+<h2>AngularJS 資料繫結</h2>
+
+<div ng-app="exampleApp" ng-controller="dayCtrl">
+    <ol>
+        <li class="ng-non-bindable">使用 {{ }} 進行 inline 資料繫結</li>
+        <div>今天是 : {{day}}</div>
+        <li>使用 ng-model 進行雙向資料繫結 :</li>
+        <input type="text" ng-model="day" />
+        <li>使用 ng-bind 進行單向資料繫結 : </li>
+        <a href="http://google.com.tw">{{htmlData}}</a>
+    </ol>
+</div>
+@section scripts{
+    <script type="text/javascript">
+        var myApp = angular.module("exampleApp", []);
+        myApp.controller("dayCtrl", function ($scope) {
+            var dayNames = ["星期日", "星期一", "星期二", "星期三",
+                "星期四", "星期五", "星期六"];
+            $scope.day = dayNames[new Date().getDay()];
+            $scope.htmlData = 'This a Link';
+        });
+    </script>
+}

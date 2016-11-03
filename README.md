@@ -1,4 +1,2 @@
 # demo
-demo angularjs
-
-hello world
+There is demo sample Angularjs + MVC

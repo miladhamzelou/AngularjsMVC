@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "AngularJS Filter";
+}
+
+<h2>AngularJS Filter </h2>
+<div ng-app="phonecatApp">
+    <ol>
+        <li>對單一資料進行格式化的 Filter(Name Upper)</li>
+        <table ng-controller="PhoneListCtrl" class="list-table">
+
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>電話</th>
+                    <th>年齡</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="phone in phones">
+                    <td>{{phone.name | uppercase}}</td>
+                    <td>{{phone.mobile}}</td>
+                    <td style="text-align: right">{{phone.age}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <li>每個對資料集合進行處理的 Filter(query Name like J)</li>
+        <table ng-controller="PhoneListCtrl" class="list-table">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>電話</th>
+                    <th>年齡</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="phone in phones | filter:'J' | orderBy:'age'">
+                    <td ng-bind="phone.name"></td>
+                    <td ng-bind="phone.mobile"></td>
+                    <td ng-bind="phone.age" style="text-align: right"></td>
+                </tr>
+            </tbody>
+    </ol>
+</div>
+@section scripts{
+    <script type="text/javascript">
+        var phonecatApp = angular.module('phonecatApp', []);
+        phonecatApp.controller('PhoneListCtrl', function ($scope) {
+            $scope.phones = [
+               { 'name': 'John', 'mobile': '0909123456', 'age': 25 },
+               { 'name': 'Mary', 'mobile': '0909123457', 'age': 30 },
+               { 'name': 'Jack', 'mobile': '0909123458', 'age': 20 }
+            ];
+
+        });
+    </script>
+}
