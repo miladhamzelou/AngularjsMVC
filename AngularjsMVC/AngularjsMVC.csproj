@@ -160,13 +160,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\TestDB.mdf" />
-    <Content Include="App_Data\TestDB_log.ldf">
-      <DependentUpon>TestDB.mdf</DependentUpon>
+    <Content Include="App_Data\Demo.mdf" />
+    <Content Include="App_Data\Demo_log.ldf">
+      <DependentUpon>Demo.mdf</DependentUpon>
     </Content>
     <Content Include="Content\Angularjs\Controller.js" />
     <Content Include="Content\Angularjs\Module.js" />
     <Content Include="Content\Angularjs\Service.js" />
+    <Content Include="Content\html\Keyframe.html" />
     <Content Include="Content\html\Page1.html" />
     <Content Include="Content\themes\jqueryui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Content\themes\jqueryui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />

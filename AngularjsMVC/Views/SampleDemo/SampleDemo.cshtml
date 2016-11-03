@@ -127,7 +127,7 @@
 
             $scope.getData1 = function () {
                 $http
-                    .get('@Url.Action("GetPhones", "Ajax")')
+                    .get('@Url.Action("GetPhones")')
                     .success(function (data) {
                         $scope.phones = data;
                     });
@@ -135,7 +135,7 @@
 
             $scope.getData2 = function () {
                 $http
-                    .post('@Url.Action("GetItems", "Ajax")')
+                    .post('@Url.Action("GetItems")')
                     .success(function (data) {
                         $scope.items = data;
                     });
