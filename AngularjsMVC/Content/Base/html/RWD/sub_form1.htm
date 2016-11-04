@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="Styles/Form.css" rel="stylesheet" type="text/css" />
+<script src="Scripts/form.js"></script>
+<script>
+    var language = "ZH_TW";
+</script>
+<body>
+    <form>
+        <div class="EditForm Form1EditForm">
+            <div class="FieldContainer NameFieldContainer">
+                <input type="text" class="Field NameField" id="Name" title="Name" allownull="false" onchange="OnNodeValueChange(this)" name="Name"
+                    value="Name" onfocus="InputOnfocus(this,'Name')" onblur="InputOnblur(this,'Name')" />
+            </div>
+            <div class="FieldContainer GenderFieldContainer">
+                <select id="Gender" class="Field GenderField" onchange="selectBack(this)" name="Gender">
+                    <option disabled value="" selected="selected">Gender</option>
+                    <option value="M">Male</option>
+                    <option value="F">FeMale</option>
+                </select>
+            </div>
+            <div class="FieldContainer AgeFieldContainer">
+                <input type="text" class="Field AgeField" title="Age" allownull="false" onchange="OnNodeValueChange(this)" name="Age"
+                    value="Age" onfocus="InputOnfocus(this,'Age')" onblur="InputOnblur(this,'Age')" />
+            </div>
+            <div class="FieldContainer EmailFieldContainer">
+                <input id="Email" class="Field EmailField" title="E-mail" value="E-mail" allownull="false" onchange="OnNodeValueChange(this)" data_type="email" name="Email" type="text"
+                    onfocus="InputOnfocus(this,'E-mail')" onblur="InputOnblur(this,'E-mail')" />
+            </div>
+
+            <div class="FieldContainer TelFieldContainer">
+                <input id="Tel" class="Field TelField" title="Cell Phone/TEL" value="Cell Phone/TEL" allownull="false" onchange="OnNodeValueChange(this)" name="Tel" type="text"
+                    onfocus="InputOnfocus(this,'Cell Phone/TEL')" onblur="InputOnblur(this,'Cell Phone/TEL')" />
+                <div id="Tel_error_message" class="error_message" style="display: none">&nbsp;</div>
+            </div>
+            <div class="FieldContainer WantFieldContainer">
+                <span>I waant
+                 <input id="chkOnline" type="checkbox" checked="checked" />Online booking
+                 <input id="chkTime" type="checkbox" />Schedule outpatient appointments
+                </span>
+            </div>
+            <div class="FieldContainer UploadFieldContainer">
+                <input id="upload" class="Field UploadField" type="button" value="Upload" />
+            </div>
+            <div class="FieldContainer TopicFieldContainer">
+               Please attach a photo of "positive, 45 degrees, 90 degrees, positive teeth, teeth 90 degrees" in order to quickly understand the symptoms.
+               For consultation or appointment of temporomandibular joint reconstruction, please attach a recent photograph of temporomandibular joint radiographs or other images.            
+            </div>
+            <div class="FieldContainer KnowFieldContainer">
+                <span>How to find out about this clinic？
+                <input id="chkBook" type="checkbox" checked="checked" />book
+                    <input id="chkFriend" type="checkbox" />Friend
+                    <input id="chkFB" type="checkbox" />FB
+                    <input id="chkBlog" type="checkbox" />Blog
+                    <input id="chkOther" type="checkbox" />Other_____
+                </span>
+            </div>
+            <div class="FieldContainer TimeFieldContainer">
+                <span>Contact time
+                  <input id="chkMorning" type="checkbox" checked="checked" />morning
+                    <input id="chkAfernoon" type="checkbox" />afternoon
+                    <input id="chkAllday" type="checkbox" />all day
+                </span>
+            </div>
+            <div class="FieldContainer TalkFieldContainer">
+                <span>contact method
+                   <input id="chkTel" type="checkbox" checked="checked" />phone
+                    <input id="chkMail" type="checkbox" />e-mail
+                    <input id="chkBoth" type="checkbox" />both
+                </span>
+            </div>
+            <div class="FieldContainer LetterFieldContainer">
+                letter content
+                <textarea id="traletter" class="Field LetterField"></textarea>
+            </div>
+            <div class="FieldContainer ButtonFieldContainer">
+                <input class="Field SubmitField" type="button" value="please contact me as soon as possible" />
+                <input class="Field ClearField" type="button" onclick="clearForm(this.form);" value="clear" />
+            </div>
+        </div>
+    </form>
+
+  
+</body>
+</html>

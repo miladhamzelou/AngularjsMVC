@@ -9,10 +9,10 @@ namespace TopPos.Web
         {
             BundleTable.EnableOptimizations = false;
 
-            bundles.Add(new StyleBundle("~/Content/Login").Include(
-                    "~/Content/base/layout.css",
-                    "~/Content/base/page.css"
-                ));
+            //bundles.Add(new StyleBundle("~/Content/Login").Include(
+            //        "~/Content/base/layout.css",
+            //        "~/Content/base/page.css"
+            //    ));
 
             bundles.Add(new StyleBundle("~/Content/basecss").Include(
                     "~/Content/base/blocks.css",

@@ -1,0 +1,102 @@
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\AngularJSMVC.dll.config
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\AngularJSMVC.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\AngularJSMVC.pdb
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\EntityFramework.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Newtonsoft.Json.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\StyleCop.CSharp.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\StyleCop.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Helpers.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Mvc.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Optimization.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Razor.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.WebPages.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\WebActivatorEx.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\WebGrease.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\EntityFramework.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\Newtonsoft.Json.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Helpers.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Mvc.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Optimization.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.Razor.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.WebPages.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\bin\zh-CHT\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\obj\Release\AngularJSMVC.csprojResolveAssemblyReference.cache
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\obj\Release\AngularJSMVC.dll
+C:\Users\howhowleo\Desktop\AngularjsMVC-master\AngularJSMVC\obj\Release\AngularJSMVC.pdb
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\AngularJSMVC.dll.config
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\AngularJSMVC.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\AngularJSMVC.pdb
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\EntityFramework.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\EntityFramework.SqlServer.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.Mvc.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Newtonsoft.Json.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\StyleCop.CSharp.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\StyleCop.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Helpers.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Mvc.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Optimization.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Razor.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.WebPages.Deployment.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.WebPages.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.WebPages.Razor.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\WebActivatorEx.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\WebGrease.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Build.Utilities.v3.5.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\EntityFramework.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\EntityFramework.SqlServer.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.Mvc.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\Newtonsoft.Json.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Helpers.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Mvc.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Optimization.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.Razor.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.WebPages.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.WebPages.Deployment.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\System.Web.WebPages.Razor.xml
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\bin\zh-CHT\Microsoft.Build.Utilities.v3.5.resources.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\obj\Release\AngularJSMVC.csprojResolveAssemblyReference.cache
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\obj\Release\AngularJSMVC.dll
+D:\Souce work\github\AngularjsMVC\AngularJSMVC\obj\Release\AngularJSMVC.pdb

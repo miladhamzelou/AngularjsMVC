@@ -13,9 +13,11 @@
     @Scripts.Render("~/Scripts/ng")
     @Scripts.Render("~/Scripts/thirdparty")
     <script type="text/javascript" src="@Url.Action("NgDynamic", "Home")"></script>
-    @Scripts.Render("~/Scripts/ngcustom")
     @Scripts.Render("~/Scripts/jqueryui")
     @Scripts.Render("~/Scripts/jqueryval")
+
+    @Scripts.RenderFormat("<script src='{0}' defer></script>", "~/Scripts/ngcustom")
+
 </head>
 <body>
     <div id="main-blocks" ng-controller="mainCtrl">
@@ -28,6 +30,7 @@
                             <ul>
                                 <li><h2><a href='#/CustomDirectiveDemo'>CustomDirectiveDemo</a></h2></li>
                                 <li><h2><a href='#/FormValidation'>FormValidation</a></h2></li>
+                                <li><h2><a href='@Url.Content("/Content/base/html/RWD/sub_form1.htm")' target="_blank"  >RWD</a></h2></li>
                               </ul>
                         </li>
                     </ul>

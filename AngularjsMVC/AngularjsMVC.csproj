@@ -189,6 +189,9 @@
   <ItemGroup>
     <Content Include="Content\base\blocks.css" />
     <Content Include="Content\base\html\Keyframe.html" />
+    <Content Include="Content\base\html\RWD\Scripts\form.js" />
+    <Content Include="Content\base\html\RWD\Styles\Form.css" />
+    <Content Include="Content\base\html\RWD\sub_form1.htm" />
     <Content Include="Content\base\icons.css" />
     <Content Include="Content\base\images\arrow.jpg" />
     <Content Include="Content\base\images\arrow.png" />
