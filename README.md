@@ -2,5 +2,4 @@
 There are Angularjs + MVC
 
 Tools Visual Studio 2015     
-
-[Demo](www.nchow.somee.com) 
+<a href="http://www.nchow.somee.com" target="_blank">Demo</a>
