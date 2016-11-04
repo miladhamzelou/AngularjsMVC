@@ -26,13 +26,13 @@
                     + "      <button type='button' class='btn-pagin' ng-disabled='opts.currentPage == opts.totalPages' ng-click='moveNext()'>&gt;</button>"
                     + "    </div>"
                     + "    <div class='pagin-bar-group'>"
-                    + "      <input type='text' placeholder='頁碼' ng-model='opts.goPage' size='5' />"
+                    + "      <input type='text' placeholder='pageNo' ng-model='opts.goPage' size='5' />"
                     + "      <span>"
                     + "        <button class='btn-pagin' type='button' ng-click='go()'>Go</button>"
                     + "      </span>"
                     + "    </div>"
                     + "  </div>"
-                    + "  <div class='pagin-bar-group'><p class='text-muted'><span ng-bind='opts.totalItems'></span>筆/共<span ng-bind='opts.totalPages'></span>頁</p></div>"
+                    + "  <div class='pagin-bar-group'><p class='text-muted'><span ng-bind='opts.totalItems'></span> count/ all <span ng-bind='opts.totalPages'></span> page </p></div>"
                     + "</div><div class='clearfix'></div>",
             scope: {
                 pagination: "=localPagination"

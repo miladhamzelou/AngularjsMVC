@@ -92,9 +92,6 @@
                 }
             }
         });
-
         $("#main-menu div.menu li.node").children("ul").show();
-
-        location.href = '#/CustomDirectiveDemo';
     }
 })()

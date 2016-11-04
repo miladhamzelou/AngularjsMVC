@@ -16,7 +16,7 @@
             link: function (scope, element, attrs, ctrl) {
                 var eId = element[0].id;
                 var showDefaultLabel = false;
-                var $content = angular.element("<label class='btn' for='" + eId + "'>選擇檔案</label>"
+                var $content = angular.element("<label class='btn' for='" + eId + "'>Choose File</label>"
                             + "<label class='text-info'>{{fileName}}</label>");
                 $content.insertAfter(element);
                 $compile($content)(scope);
@@ -45,7 +45,7 @@
                     if (showDefaultLabel) {
                         scope.fileName = newValue[0].name;
                     } else {
-                        scope.fileName = "未選擇任何檔案";
+                        scope.fileName = "No File Chosen";
                         angular.element("#" + eId).val("");
                     }
                 });

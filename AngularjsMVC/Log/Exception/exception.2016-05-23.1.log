@@ -1,7 +1,0 @@
-----------------------------------------
-2016/5/19 下午 05:13:56	[Error]	[HOWHOWSONY-12WE]	An error occurred while reading from the store provider's data reader. See the inner exception for details.
-Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Controllers\WebUtil.cs	line:58
-An error occurred while reading from the store provider's data reader. See the inner exception for details.
-----------------------------------------
-2016/5/20 下午 02:58:19	[Error]	[HOWHOWSONY-12WE]	並未將物件參考設定為物件的執行個體。
-Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Services.BAC\Services\ItemGroupService.cs	line:22

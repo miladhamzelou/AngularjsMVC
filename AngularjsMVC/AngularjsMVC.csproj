@@ -50,20 +50,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DelegateDecompiler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=93b26a10a04705bd, processorArchitecture=MSIL">
-      <HintPath>..\packages\DelegateDecompiler.0.17.0\lib\net40-Client\DelegateDecompiler.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Magick.NET-Q16-AnyCPU, Version=7.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
-      <HintPath>..\packages\Magick.NET-Q16-AnyCPU.7.0.2.400\lib\net40-client\Magick.NET-Q16-AnyCPU.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -97,10 +89,6 @@
     </Reference>
     <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\MicosoftReportViewerWebForms_v11.1.0.1\lib\Microsoft.ReportViewer.WebForms.DLL</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Mono.Reflection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Reflection.1.0.0.0\lib\Mono.Reflection.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -279,12 +267,9 @@
     <Content Include="Content\themes\jqueryui\jquery-ui.theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Log\Exception\DeleteMe.txt" />
     <Content Include="Scripts\alasql.min.js" />
     <Content Include="Scripts\angular-resource.min.js" />
-    <Content Include="Scripts\Controller\TEST\DragDropController.js" />
     <Content Include="Scripts\Controller\TEST\LockDataController.js" />
-    <Content Include="Scripts\Controller\TEST\ZipFileController.js" />
     <Content Include="Scripts\Controller\TEST\LoadingBlockerController.js" />
     <Content Include="Scripts\Custom\app.config.js" />
     <Content Include="Scripts\Custom\app.run.js" />
@@ -351,36 +336,12 @@
     <Content Include="Scripts\Custom\services\loading.service.js" />
     <Content Include="Scripts\Custom\services\translation.service.js" />
     <Content Include="Scripts\ocLazyLoad.min.js" />
-    <Content Include="Scripts\Repository\ACC\CreditCardDetail_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IDO_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\RePriceInventory_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\OutPutInvError_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\MonthDataExportRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashDetailMonth_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashExpInvCHK_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashInvChange_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashReportAndInvDiffRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ChangePricePosDataRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ChangePricePosData_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ChangePriceRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ChangePrice_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CloseCTLRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CreditCardTot_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\DailyCashChk_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ExpenseDetail_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ImportInvoiceTrackPageRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CreditCardSellRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IcashAppropriationRepository.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular.js" />
     <None Include="Properties\PublishProfiles\Cosmed.pubxml" />
     <Content Include="Scripts\Controller\Common\area-list-dialog-ctrl.js" />
-    <Content Include="Scripts\Controller\TEST\CssDemoController.js" />
     <Content Include="Scripts\Controller\TEST\FormValidationController.js" />
     <Content Include="Scripts\Controller\Common\area-dialog-ctrl.js" />
-    <Content Include="Scripts\Controller\TEST\TestExportCsvController.js" />
-    <Content Include="Scripts\Controller\TEST\TestExportExcelController.js" />
-    <Content Include="Scripts\Controller\TEST\TestImportExcelController.js" />
     <Content Include="Scripts\Custom\checkers.js" />
     <Content Include="Scripts\Custom\directives.js" />
     <Content Include="Scripts\Custom\services\lock-data.service.js" />
@@ -396,118 +357,10 @@
     <Content Include="Scripts\jquery-ui-ext.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\Custom\main-ctrl.js" />
-    <Content Include="Scripts\MvcReportTest\MvcReportTest.js" />
-    <Content Include="Scripts\Repository\ACC\CertificateOfSalesRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ECAndCashChk_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ECAutoFeeChkRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ECFeeChkRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ECAppropriationRepository.js" />
-    <Content Include="Scripts\Repository\ACC\DailyCashRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CertificateOfSales_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CostOfGoodsSold_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\InvDis_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\MonthDataAutoCloseRepository.js" />
-    <Content Include="Scripts\Repository\ACC\OutPutFileTaxDate_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\OutPutInvExportRepository.js" />
-    <Content Include="Scripts\Repository\ACC\POSSubjectRepository.js" />
-    <Content Include="Scripts\Repository\ACC\PurchaseTot_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\Purchase_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\PurInvDiff_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\PurInvRepository.js" />
-    <Content Include="Scripts\Repository\ACC\Query7788DataPageRepository.js" />
-    <Content Include="Scripts\Repository\ACC\PurInvQuery_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\RemittanceDiff_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\RemittanceRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ScrappedRepository.js" />
-    <Content Include="Scripts\Repository\ACC\Scrapped_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\StoreCashDiff_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\StoresTranIcashRepository.js" />
-    <Content Include="Scripts\Repository\ACC\StoreUploadDiff_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\SubjectRepository.js" />
-    <Content Include="Scripts\Repository\ACC\QueryToolsPageRepository.js" />
-    <Content Include="Scripts\Repository\ACC\VIP_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\QueryStoreDepositCashPage_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\OutPutInvDetails_RRepository.js" />
-    <Content Include="Scripts\Repository\BAC\DeliveryRangeRepository.js" />
-    <Content Include="Scripts\Repository\BAC\SysJobLogRepository.js" />
-    <Content Include="Scripts\Repository\BAC\DataDownlinkRepository.js" />
-    <Content Include="Scripts\Repository\BAC\ItemInfoRepository.js" />
-    <Content Include="Scripts\Repository\BAC\MenuRepository.js" />
-    <Content Include="Scripts\Repository\BAC\PosSHCRepository.js" />
-    <Content Include="Scripts\Repository\BAC\VersionRepository.js" />
-    <Content Include="Scripts\Repository\CPN\CouponIssueRedeemed_RRepository.js" />
-    <Content Include="Scripts\Repository\CPN\CouponRepository.js" />
-    <Content Include="Scripts\Repository\CPN\CouponStatusRepository.js" />
-    <Content Include="Scripts\Repository\CPN\CouponTurnOverRate_RRepository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaItemCSVRepository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaItemList2Repository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaItem_RRepository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaReturnQueryRepository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaStoreListRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashShortOverFlow_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashReportInvDiff_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IDORepository.js" />
-    <Content Include="Scripts\Repository\ACC\ProfitLoss_RRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ProfitLossRepository.js" />
-    <Content Include="Scripts\Repository\ACC\AccountRepository.js" />
-    <Content Include="Scripts\Repository\ACC\PurchaseRepository.js" />
-    <Content Include="Scripts\Repository\ACC\CashExpInvRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ECAutoDiffChkRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ExcludeStoreRepository.js" />
-    <Content Include="Scripts\Repository\ACC\EcIcashFeeRateRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IcashAndCashChkRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IcashDiffChkRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IcashFeeCheckRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ECStoresTranRepository.js" />
-    <Content Include="Scripts\Repository\ACC\IcashAutoFeeChkRepository.js" />
-    <Content Include="Scripts\Repository\ACC\ICashDiffReasonRepository.js" />
-    <Content Include="Scripts\Repository\BAC\ItemGroupRepository.js" />
-    <Content Include="Scripts\Repository\BAC\CategoryRepository.js" />
-    <Content Include="Scripts\Repository\BAC\ChangeUserPasswordRepository.js" />
-    <Content Include="Scripts\Repository\BAC\CharacterRepository.js" />
-    <Content Include="Scripts\Repository\BAC\CalendarRepository.js" />
-    <Content Include="Scripts\Repository\BAC\StoreRepository.js" />
-    <Content Include="Scripts\Repository\BAC\VendorRepository.js" />
-    <Content Include="Scripts\Repository\BAC\ItemRepository.js" />
-    <Content Include="Scripts\Repository\BAC\RoleMenuRepository.js" />
-    <Content Include="Scripts\Repository\BAC\UserRepository.js" />
-    <Content Include="Scripts\Repository\BCS\MediaListRepository.js" />
-    <Content Include="Scripts\Repository\BCS\BroadcastRepository.js" />
     <Content Include="Scripts\Repository\Common\dialog-repository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaItemListRepository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaStoreRepository.js" />
-    <Content Include="Scripts\Repository\GDL\GondolaTypeRepository.js" />
-    <Content Include="Scripts\Repository\ITF\InvrecvAndNoRepository.js" />
-    <Content Include="Scripts\Repository\PAC\ExpireNoticeRepository.js" />
-    <Content Include="Scripts\Repository\PAC\ReturnNoticeRepository.js" />
-    <Content Include="Scripts\Repository\PAC\ReturnQueryRepository.js" />
-    <Content Include="Scripts\Repository\PRH\HQNewStoreOrderRepository.js" />
-    <Content Include="Scripts\Repository\PRH\HQOrderMaintainRepository.js" />
-    <Content Include="Scripts\Repository\PRH\HQOrderTypeRepository.js" />
-    <Content Include="Scripts\Repository\PRH\HQOrderStoreRepository.js" />
-    <Content Include="Scripts\Repository\PRH\HQGondolaGroupRepository.js" />
-    <Content Include="Scripts\Repository\PRH\OrderDeadlineRepository.js" />
-    <Content Include="Scripts\Repository\PRH\OrderQueryRepository.js" />
-    <Content Include="Scripts\Repository\SIF\SCReportCategory_RRepository.js" />
-    <Content Include="Scripts\Repository\SIF\SCReportTop100_RRepository.js" />
-    <Content Include="Scripts\Repository\SIF\SCReportMMItem_RRepository.js" />
-    <Content Include="Scripts\Repository\SIF\SCReportPromotionItem_RRepository.js" />
-    <Content Include="Scripts\Repository\SIF\SCReportSaleItem_RRepository.js" />
-    <Content Include="Scripts\Repository\BAC\SCStoreDeviceRepository.js" />
-    <Content Include="Scripts\Repository\SIF\SCXLSDataImportRepository.js" />
-    <Content Include="Scripts\Repository\SPR\ProPeriodRepository.js" />
-    <Content Include="Scripts\Repository\BAC\AreaRepository.js" />
     <Content Include="Scripts\Repository\repositories.js" />
     <Content Include="Scripts\Controller\TEST\CustomDirectiveDemoController.js" />
     <Content Include="Scripts\Custom\app.module.js" />
-    <Content Include="Scripts\Repository\SPR\PromoPriceCardRepository.js" />
-    <Content Include="Scripts\Repository\SPR\PromotionRepository.js" />
-    <Content Include="Scripts\Repository\STR\AllocateSettingRepository.js" />
-    <Content Include="Scripts\Repository\STR\QueryInventoryDiff_RRepository.js" />
-    <Content Include="Scripts\Repository\STR\QueryMerchandisingTurnoverRepository.js" />
-    <Content Include="Scripts\Repository\STR\QueryStoreStockRepository.js" />
-    <Content Include="Scripts\Repository\STR\QueryRSIStockRepository.js" />
-    <Content Include="Scripts\Repository\STR\StockAdjustDetailRepository.js" />
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\xlsx.core.min.js" />
     <Content Include="Web.config">
@@ -526,7 +379,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Test\CustomDirectiveDemo.cshtml" />
     <Content Include="Views\Home\NgDynamic.cshtml" />
-    <Content Include="Scripts\MvcReportTest\MvcReportTest.js.map" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Dialog\AreaDialog.cshtml" />
@@ -539,18 +391,12 @@
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
     <Folder Include="bin\" />
-    <Folder Include="Scripts\Repository\MBR\" />
-    <Folder Include="Scripts\Repository\MIG\" />
-    <Folder Include="Scripts\Repository\NRP\" />
-    <Folder Include="Scripts\Repository\POS\" />
+    <Folder Include="Log\Exception\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\Controller\TEST\testDragDropController.js" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

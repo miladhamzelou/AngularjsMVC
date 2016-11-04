@@ -26,35 +26,30 @@ namespace TopPos.Web.Controllers.Common
             return items;
         }
 
-        //public ActionResult GetArea(AutoOption option)
-        //{
-        //    return WebUtil.ToJsonResult(service.GetArea(option));
-        //}
-
         public ActionResult GetCategory(string term, int count)
         {
             var item1 = new ReturnData
             {
-                value = "0商品商品",
-                name = "00商品商品"
+                value = "A0",
+                name = "apple product name"
             };
 
             var item11 = new ReturnData
             {
-                value = "0客戶",
-                name = "0客戶"
+                value = "B0",
+                name = "Jack customer name"
             };
 
             var item2 = new ReturnData
             {
-                value = "1商品商品",
-                name = "1商品商品"
+                value = "A1",
+                name = "water product name"
             };
 
             var item12 = new ReturnData
             {
-                value = "1客戶",
-                name = "1客戶"
+                value = "B1",
+                name = "Tom customer name"
             };
 
             List<ReturnData> items = new List<ReturnData>();

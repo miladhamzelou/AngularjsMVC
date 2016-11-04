@@ -46,7 +46,7 @@
             transformRequest: angular.identity,
             headers: { 'Content-Type': undefined }
         }).success(function (response) {
-            dialogService.messageDialog({ message: "上傳成功" });
+            dialogService.messageDialog({ message: "ok" });
         });
     };
 
@@ -59,21 +59,21 @@
 
     $scope.openMsgDialog = function () {
         dialogService.messageDialog({
-            message: "這是一個訊息對話框的測試。",
+            message: "this is a messagedialog。",
             callback: function () {
-                alert("執行callback處理");
+                alert("run callback");
             }
         });
     }
 
     $scope.openHtmlMsgDialog = function () {
-        dialogService.messageDialog({ message: "<h3>HTML格式訊息內容</h3><p>這是一個訊息對話框的測試。</p>" });
+        dialogService.messageDialog({ message: "<h3>HTML content</h3><p>this is a messagedialog。</p>" });
     }
 
     $scope.openConfirmDialog = function () {
         dialogService.confirmDialog({
-            message: "確認刪除?", callback: function (result) {
-                var text = result ? "按下確認鈕" : "按下取消鈕或右上方[x]鈕，或是按下ESC鍵";
+            message: "confirm delete?", callback: function (result) {
+                var text = result ? "press confirm " : " press cancel or  top right[x]， or press ESC ";
                 dialogService.messageDialog({ message: text });
             }
         })
@@ -89,7 +89,6 @@
 .controller("paginCtrl", ["$scope", "baseUrl", function ($scope, baseUrl) {
     $scope.pagingOpts = {
         pageSize: 3,
-        //data: {},
         url: baseUrl + "Dialog/QueryStore",
         callback: function (items) {
             $scope.items = items;
@@ -98,27 +97,29 @@
 
     $scope.queryStore = function (store) {
         $scope.pagingOpts.data = angular.copy(store) || {};
-        //$scope.pagingOpts.data = angular.copy(store);
     }
 }])
 .controller("paginCtrl2", ["$scope", function ($scope) {
+    $scope.getCount = 10;
+    $scope.items = [{ Id: '1', Name: 'Taipei' }, { Id: '2', Name: 'Tainan' }
+    , { Id: '3', Name: 'Keelung' }, { Id: '4', Name: 'Hsinchu' }
+    , { Id: '5', Name: 'Taichung' }, { Id: '6', Name: 'Kaohsiung' }];
     $scope.pagingOpts = {
-        pageSize: 10,
-        totalItems: 201,
-        //auto: true,
+        pageSize: 3,
+        totalItems: 0,
         callback: function (page) {
-            $scope.pageNo = page;
+            $scope.skipCount = (page - 1) * $scope.getCount;
         }
     };
 
     $scope.changeTotalItems = function () {
-        $scope.pagingOpts.totalItems = 51;
+        $scope.getCount = 3;
+        $scope.pagingOpts.totalItems = $scope.items.length;
     }
 }])
 .controller("entertabCtrl", ["$scope", "dialogService", function ($scope, dialogService) {
     $scope.remove = function (index) {
         $scope.items.splice(index, 1);
-        dialogService.messageDialog({ message: "<h3>記得要reset</h3><p>刪除的時候entertab的標籤會斷掉，$scope.myBlock.reset()會重新給定標籤。</p>" });
     }
 
     $scope.remove2 = function (index) {
@@ -137,7 +138,7 @@
     ];
 
     $scope.deleteData = function () {
-        dialogService.messageDialog({ message: "原本的刪除處理" });
+        dialogService.messageDialog({ message: " old delete" });
     }
 
     $scope.deleteOneItem = function (item) {

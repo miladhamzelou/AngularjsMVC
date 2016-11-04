@@ -1,9 +1,0 @@
-----------------------------------------
-2016/5/10 下午 03:26:24	[Error]	[HOWHOWSONY-12WE]	索引和長度必須參考字串中的位置。
-參數名稱: length
-Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Web\Areas\BAC\Controllers\CategoryController.cs	line:109
-----------------------------------------
-2016/5/10 下午 03:26:46	[Error]	[HOWHOWSONY-12WE]	Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
-Source:D:\Souce work\NEC\Cosmed-Db\TopPos.Data\Utility\DbContextProxy.cs	line:52
-Entity of type "BAC_Category_M" in state "Added" has the following validation errors:
-- CatID : 分類編號長度必須為2

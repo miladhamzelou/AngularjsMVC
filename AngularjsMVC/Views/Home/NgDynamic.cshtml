@@ -1,10 +1,4 @@
-﻿@*
-    功能：取得Server端的相關資料並以js方式設定至Client端的模組
-    1. 由Server端取得路徑，才能正確取得網站在虛擬目錄下的相關路徑
-    2. 驗證錯誤訊息可彈性由Server端的設定檔取得
-*@
-
-@*<script type="text/javascript">*@
+﻿@*<script type="text/javascript">*@
     angular.module("NgDynamic", [])
     .constant("autoCompleteCount", 5)
     .constant("defaultPageCount", 50)
@@ -17,8 +11,9 @@
         timeoutCountdown: @System.Web.Configuration.WebConfigurationManager.AppSettings["TimeoutCountDown"]
     })
     .config(["$routeProvider", "baseUrl", function ($routeProvider, baseUrl) {
-        @*Route路徑設定*@
     $routeProvider
+        .when("/", {
+        templateUrl : '@Url.Content("/Content/base/html/Keyframe.html")'})
         .when("/CustomDirectiveDemo", {
         templateUrl : baseUrl+"Test/CustomDirectiveDemo"})
         .when("/FormValidation", {
@@ -41,35 +36,35 @@
     .factory("message", ["formater", function (formater) {
         return {
             defaults: {
-                deleteConfirm: "將刪除該筆資料<br/>是否確認繼續處理?",
-                noitem: "查無資料",
-                loadingMsg: "處理中，請稍候...",
-                dataLocked: formater.formatString("資料已鎖定。<br />使用者: <span class='text-info'>{0}</span> 修改中，請稍後再試。")
+                deleteConfirm: " will delete <br/>please confirm?",
+                noitem: "nodata",
+                loadingMsg: "loading...",
+                dataLocked: formater.formatString("data locked")
             },
             validate: {
-                required: "請輸入資料",
-                email: "Email格式錯誤",
-                url: "網址格式錯誤",
-                date: "日期格式錯誤",
-                time: "時間格式錯誤",
-                dataLessThan: "結束日不可小於起始日",
-                ipv4: "IP格式錯誤",
-                integer: "整數格式錯誤",
-                number: "數值格式錯誤",
-                digit: "只允許為數字",
-                equalTo: "資料不相同",
-                alphaNumeric: "只允許為英文或數字",
-                lessThan: formater.formatString("結束{0}不可小於起始{0}"),
-                float: formater.formatString("數值格式錯誤{0}"),
-                maxlength: formater.formatString("資料長度不可超過{0}字元"),
-                minlength: formater.formatString("資料長度至少{0}字元以上"),
-                rangelength: formater.formatString("資料長度需介於 {0} 至 {1} 字元"),
-                range: formater.formatString("數值需介於 {0} 至 {1} 之間"),
-                max: formater.formatString("數值不得超過 {0}"),
-                min: formater.formatString("數值不得小於 {0}"),
-                dateRange: formater.formatString("日期超過允許範圍({0}~{1})"),
-                TaxKindNotFound: "查無此格式代碼",
-                fixlength: formater.formatString("資料長度必須為{0}字元"),
+                required: "please input data",
+                email: "Email format error",
+                url: "url format error",
+                date: "date format error",
+                time: "time format error",
+                dataLessThan: "enddate not less startdate",
+                ipv4: "IP format error",
+                integer: "integer format error",
+                number: "number format error",
+                digit: "only allow digit",
+                equalTo: "data no match",
+                alphaNumeric: "only letter or num",
+                lessThan: formater.formatString("end {0} not less start {0}"),
+                float: formater.formatString("float format error {0}"),
+                maxlength: formater.formatString("data length not more {0} char"),
+                minlength: formater.formatString("data length at least {0} char"),
+                rangelength: formater.formatString("data length need between {0} to {1} char"),
+                range: formater.formatString("range need between {0} to {1} "),
+                max: formater.formatString("not exceed {0}"),
+                min: formater.formatString("not Less than {0}"),
+                dateRange: formater.formatString("date exceed allowable range({0}~{1})"),
+                TaxKindNotFound: "not found format",
+                fixlength: formater.formatString("data length need {0} char"),
             },
             getValidateMsg: function (field, element) {
                 var self = this;
@@ -130,13 +125,13 @@
                     if (isNaN(inputField.attr("float"))) {
                         params.push("");
                     } else {
-                        var errorMessage = "，最多為";
+                        var errorMessage = "，The maximum is ";
 
                         if (inputField.attr("float-length")) {
-                            errorMessage += parseInt(inputField.attr("float-length")) - parseInt(inputField.attr("float")) + "位整數";
+                            errorMessage += parseInt(inputField.attr("float-length")) - parseInt(inputField.attr("float")) + "interger point";
                         }
                         
-                        errorMessage += inputField.attr("float") + "位小數";
+                        errorMessage += inputField.attr("float") + " decimal point";
                         params.push(errorMessage);
                     }
                     return params;
@@ -161,7 +156,7 @@
 
                 var getLessThenParams = function(){
                     var params = [];
-                    var name = inputField.attr("value-text") || "值";
+                    var name = inputField.attr("value-text") || "value";
                     params.push(name);
                     return params;
                 }
@@ -203,7 +198,7 @@
                 return msg;
             },
             getTextLength: function (textLength) {
-                return "已輸入(" + textLength + ")個字";
+                return "already input(" + textLength + ") char";
             }
         };
     }]);

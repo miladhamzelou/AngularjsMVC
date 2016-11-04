@@ -4,7 +4,10 @@
     }
 </style>
 <div ng-controller="formValidationCtrl">
-    <h3>Angular 內建檢核</h3>
+    <div><h2><a href="#/">Back to Home</a></h2></div>
+    <br />
+
+    <h3>Angular Valid</h3>
     <div class="innerBox">
         <form novalidate name="buildInForm">
             <table class="table-form">
@@ -12,16 +15,15 @@
                     <th>maxlength</th>
                     <td>
                         <input type="text" name="maxlength" ng-model="buildIn.maxlength" maxlength="5" />{{ buildIn.maxlength }}
-                        <div class="error" ng-show="buildInForm.maxlength.$invalid && buildInForm.maxlength.$dirty">未通過檢核</div>
-                        使用 maxlength 時，Angular 會自動掛載 ng-maxlength<br />
-                        (因為 maxlength 是 HTML 定義，所有瀏覽器都會限定輸入長度，所以無法輸入超過的長度)
+                        <div class="error" ng-show="buildInForm.maxlength.$invalid && buildInForm.maxlength.$dirty">invalid</div>
+                        use maxlength ，Angular auto add attr ng-maxlength<br />
                     </td>
                 </tr>
                 <tr>
                     <th>ng-maxlength</th>
                     <td>
                         <input type="text" name="ng_maxlength" ng-model="buildIn.ng_maxlength" ng-maxlength="5" />{{ buildIn.ng_maxlength }}
-                        <div class="error" ng-show="buildInForm.ng_maxlength.$invalid && buildInForm.ng_maxlength.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="buildInForm.ng_maxlength.$invalid && buildInForm.ng_maxlength.$dirty">invalid</div>
                         <show-error for="ng_maxlength"></show-error>
                     </td>
                 </tr>
@@ -29,31 +31,31 @@
                     <th>minlength</th>
                     <td>
                         <input type="text" name="minlength" ng-model="buildIn.minlength" minlength="5" />{{ buildIn.minlength }}
-                        <div class="error" ng-show="buildInForm.minlength.$invalid && buildInForm.minlength.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="buildInForm.minlength.$invalid && buildInForm.minlength.$dirty">invalid</div>
                         <show-error for="minlength"></show-error>
-                        使用 minlength 時，Angular 會自動掛載 ng-minlength
+                        use minlength ，Angular auto add attr ng-minlength
                     </td>
                 </tr>
                 <tr>
                     <th>ng-minlength</th>
                     <td>
                         <input type="text" name="ng_inlength" ng-model="buildIn.ng_inlength" ng-minlength="5" />{{ buildIn.ng_inlength }}
-                        <div class="error" ng-show="buildInForm.ng_inlength.$invalid && buildInForm.ng_inlength.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="buildInForm.ng_inlength.$invalid && buildInForm.ng_inlength.$dirty">invalid</div>
                         <show-error for="ng_inlength"></show-error>
                     </td>
                 </tr>
                 <tr>
-                    <th>ngPattern (此例設定開頭為字母)</th>
+                    <th>ngPattern </th>
                     <td>
                         <input type="text" name="ngPattern" ng-model="buildIn.ngPattern" ng-pattern="startWithAlphabeta" />{{ buildIn.ngPattern }}
-                        <div class="error" ng-show="buildInForm.ngPattern.$invalid && buildInForm.ngPattern.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="buildInForm.ngPattern.$invalid && buildInForm.ngPattern.$dirty">invalid</div>
                     </td>
                 </tr>
                 <tr>
                     <th>required</th>
                     <td>
                         <input type="text" name="required" ng-model="buildIn.required" required />{{ buildIn.required }}
-                        <div class="error" ng-show="buildInForm.required.$invalid && buildInForm.required.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="buildInForm.required.$invalid && buildInForm.required.$dirty">invalid</div>
                         <show-error for="required"></show-error>
                     </td>
                 </tr>
@@ -62,49 +64,49 @@
 
     </div>
 
-    <h3>客製化檢核</h3>
+    <h3>Customized Valid</h3>
     <div class="innerBox">
-        <h4>Client端檢核</h4>
+        <h4>Client Valid</h4>
         <form novalidate name="customForm">
             <table class="table-form">
                 <tr>
                     <th>class="date"</th>
-                    <td>日期檢核</td>
+                    <td>date Valid</td>
                     <td><input type="text" class="date" name="date" ng-model="custom.date" min-date="'2016/01/02'" max-date="'2016/01/25'" />{{ custom.date }}
-                        <div class="error" ng-show="customForm.date.$invalid && customForm.date.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.date.$invalid && customForm.date.$dirty">invalid</div>
                         <show-error for="date"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="date" date-format="<span class="text-danger" style="font-size:20px; font-weight:700;">'yy/mm</span><span class="text-danger" style="font-size:20px; font-weight:700;">'</span>"</th>
-                    <td>日期檢核(年月)</td>
+                    <td>date Valid(year month)</td>
                     <td>
                         <input type="text" class="date" date-format="'yy/mm'" name="dateM" ng-model="custom.dateM" min-date="'2016/01'" max-date="'2016/09'" />{{ custom.dateM }}
-                        <div class="error" ng-show="customForm.dateM.$invalid && customForm.dateM.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.dateM.$invalid && customForm.dateM.$dirty">invalid</div>
                         <show-error for="dateM"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="time"</th>
-                    <td>時間檢核</td>
+                    <td>time Valid</td>
                     <td>
                         <input type="text" class="time" name="time" ng-model="custom.time" />{{ custom.time }}
-                        <div class="error" ng-show="customForm.time.$invalid && customForm.time.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.time.$invalid && customForm.time.$dirty">invalid</div>
                         <show-error for="time"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="ipv4"</th>
-                    <td>IP位置檢核</td>
+                    <td>IP Valid</td>
                     <td>
                         <input type="text" class="ipv4" name="ipv4" ng-model="custom.ipv4" />{{ custom.ipv4 }}
-                        <div class="error" ng-show="customForm.ipv4.$invalid && customForm.ipv4.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.ipv4.$invalid && customForm.ipv4.$dirty">invalid</div>
                         <show-error for="ipv4"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="alpha-numeric"</th>
-                    <td>文數字檢核</td>
+                    <td>letter num Valid </td>
                     <td>
                         <input type="text" class="alpha-numeric" name="alphaNumeric" ng-model="custom.alphaNumeric" /><show-error for="alphaNumeric"></show-error>
                         <show-error for="alphaNumeric"></show-error>
@@ -112,56 +114,51 @@
                 </tr>
                 <tr>
                     <th>class="number"</th>
-                    <td>數值檢核<span class="text-info">(等同於不設定小數位數的 float 檢核)</span></td>
+                    <td>num Valid</td>
                     <td>
                         <input type="text" class="number" name="number" ng-model="custom.number" />{{ custom.number }}
-                        <div class="error" ng-show="customForm.number.$invalid && customForm.number.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.number.$invalid && customForm.number.$dirty">invalid</div>
                         <show-error for="number"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="digit"</th>
-                    <td>數字組合檢核</td>
+                    <td>digit Valid</td>
                     <td>
                         <input type="text" class="digit" name="digit" ng-model="custom.digit" />{{ custom.digit }}
-                        <div class="error" ng-show="customForm.digit.$invalid && customForm.digit.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.digit.$invalid && customForm.digit.$dirty">invalid</div>
                         <show-error for="digit"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="integer"</th>
-                    <td>整數檢核:正負整數、0</td>
+                    <td>integer Valid :positive negative </td>
                     <td>
                         <input type="text" class="integer" name="integer" ng-model="custom.integer" />{{ custom.integer }}
-                        <div class="error" ng-show="customForm.integer.$invalid && customForm.integer.$dirty">未通過檢核</div>
+                        <div class="error" ng-show="customForm.integer.$invalid && customForm.integer.$dirty">invalid</div>
                         <show-error for="integer"></show-error>
                     </td>
                 </tr>
                 <tr>
                     <th>class="float" 或 float="2"</th>
-                    <td>小數檢核，可指定小數位數</td>
+                    <td>decimal Valid ， can set  decimal point</td>
                     <td>
-                        <input type="text" class="float" name="float" ng-model="custom.float" />未指定小數位數時，可輸入任何數值 {{ custom.float }}
-                        <show-error for="float"></show-error>
-                        <div class="error" ng-show="customForm.float.$invalid && customForm.float.$dirty">未通過檢核</div><br />
-                        <input type="text" float="2" name="float2" ng-model="custom.float2" />float="2" 指定為2位小數 {{ custom.float2 }}
+
+                        <div class="error" ng-show="customForm.float.$invalid && customForm.float.$dirty">invalid</div><br />
+                        <input type="text" float="2" name="float2" ng-model="custom.float2" />float="2" set 2 decimal point {{ custom.float2 }}
                         <show-error for="float2"></show-error>
-                        <div class="error" ng-show="customForm.float2.$invalid && customForm.float2.$dirty">未通過檢核</div>
-                        <div>
-                            <input type="text" float="2" float-length="5" name="float3" ng-model="custom.float3" />float="2" float-length="5" 指定為總長度5位數(3位整數, 2位小數) {{ custom.float3 }}
-                            <show-error for="float3"></show-error>
-                        </div>
+                        <div class="error" ng-show="customForm.float2.$invalid && customForm.float2.$dirty">invalid</div>
                     </td>
                 </tr>
                 <tr>
-                    <th>less-than="scope值" value-text="替代「值」的文字"</th>
-                    <td>起迄值檢核</td>
+                    <th>less-than="less value" value-text="scope value"</th>
+                    <td>less than Valid</td>
                     <td>
                         <input type="text" name="StartValue" ng-model="custom.StartValue" less-than="custom.EndValue" />
                         <span> ~ </span>
                         <input type="text" name="EndValue" ng-model="custom.EndValue"/>
                         <show-error for="StartValue"></show-error><br />
-                        <input type="text" class="date" name="StartValue2" ng-model="custom.StartValue2" less-than="custom.EndValue2" value-text="日期" />
+                        <input type="text" class="date" name="StartValue2" ng-model="custom.StartValue2" less-than="custom.EndValue2" value-text="date" />
                         <span> ~ </span>
                         <input type="text" class="date" name="EndValue2" ng-model="custom.EndValue2" />
                         <show-error for="StartValue2"></show-error>
@@ -169,7 +166,7 @@
                 </tr>
                 <tr>
                     <th>fixlength="6"</th>
-                    <td>固定長度檢核</td>
+                    <td>fixlength Valid</td>
                     <td>
                         <input type="text" name="fixlength" ng-model="costom.FixLength" fixlength="6" />
                         <show-error for="fixlength"></show-error>
@@ -177,6 +174,5 @@
                 </tr>
             </table>
         </form>
-        <hr>
     </div>
 </div>

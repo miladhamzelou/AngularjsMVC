@@ -20,16 +20,16 @@
                 isRequired: "=ngRequired"
             },
             link: function (scope, element, attrs, ctrl) {
-                var defaultLabel = '未選擇任何檔案';
+                var defaultLabel = 'No File Chosen';
                 var water = attrs["water"];
                 var content =
-                "<label class='btn' ng-disabled='isDisabled'>選擇檔案"
+                "<label class='btn' ng-disabled='isDisabled'>Choose File"
                 + "<input type='file' style='display:none;' ng-change='changeFile()' ng-model='imageUrl' accept='image/*' image-model='imgFile' image-to-base64 ng-disabled='isDisabled' ng-required='isRequired'/></label>"
                 + "<label class='text-info'>{{fileTextName}}</label>"
-                + "<button class='btn' ng-disabled='!imageUrl || isDisabled' ng-click='clearFile()' ><span class='btn-icon btn-icon-delete'></span>清除</button><br/>"
+                + "<button class='btn' ng-disabled='!imageUrl || isDisabled' ng-click='clearFile()' ><span class='btn-icon btn-icon-delete'></span>clear</button><br/>"
 
                 if (water != null) {
-                    content += " <div back-img ng-model='imageUrl'>圖片浮水印</div>";
+                    content += " <div back-img ng-model='imageUrl'>backimg</div>";
                 }
                 else {
                     content += "<img src='{{imageUrl}}' />";
@@ -45,7 +45,7 @@
 
                 compileFn = $compile(inputElem);
 
-                scope.fileTextName = "未選擇任何檔案";
+                scope.fileTextName = "No File Chosen";
                 scope.clearFile = function () {
                     scope.ngModel = null;
                     scope.imageUrl = null;

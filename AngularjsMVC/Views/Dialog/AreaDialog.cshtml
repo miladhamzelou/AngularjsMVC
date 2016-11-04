@@ -1,18 +1,17 @@
-﻿@* 群組對話框 *@
-<div ng-controller="areaDialogCtrl">
+﻿<div ng-controller="areaDialogCtrl">
     <div class="innerBox">
         <table>
             <tr>
-                <td class="Subtopic">群組</td>
+                <td class="Subtopic">ID</td>
                 <td><input type="text" ng-model="data.AreaID" /></td>
             </tr>
             <tr>
-                <td class="Subtopic">群組名稱</td>
+                <td class="Subtopic">NAME</td>
                 <td><input type="text" ng-model="data.AreaNM" /></td>
             </tr>
             <tr>
                 <td></td>
-                <td><button type="button" class="btn" ng-click="queryData(data)"><span class="btn-icon btn-icon-search"></span>查詢</button></td>
+                <td><button type="button" class="btn" ng-click="queryData(data)"><span class="btn-icon btn-icon-search"></span>query</button></td>
             </tr>
         </table>
     </div>
@@ -21,8 +20,8 @@
         <table class="list-table">
             <thead class="set-thead">
                 <tr>
-                    <th style="width:100px">群組</th>
-                    <th>群組名稱</th>
+                    <th style="width:100px">ID</th>
+                    <th>NAME</th>
                 </tr>
             </thead>
             <tbody>

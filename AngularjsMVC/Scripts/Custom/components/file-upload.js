@@ -40,7 +40,7 @@
                                 + 'ng-disabled="params.isDisable"'
                                 + 'ng-required="params.isRequired"'
                                 + 'style="width: 0.1px;height: 0.1px;opacity: 0;overflow: hidden;position: absolute;z-index: -1;" multiple/>'
-                                + '<label for="uplFiles' + currentId + '" class="btn">選取檔案</label>';
+                                + '<label for="uplFiles' + currentId + '" class="btn">Choose File</label>';
             var fileElement = angular.element(baseTemplate);
             baseElement.append(fileElement);
             return fileElement;
@@ -51,7 +51,7 @@
             var baseTemplate = "<button class='btn' ><span class='btn-icon btn-icon-delete' "
                                 + "ng-disabled='params.isDisable' "
                                 + "ng-click='parms.clearCallback'"
-                                + "></span>清除</button>";
+                                + "></span>clear</button>";
             var clearElement = angular.element(baseTemplate);
             clearElement.on('click', scope.params.clearCallback);
             baseElement.append(clearElement);
@@ -60,7 +60,7 @@
 
         var generateFileName = function (scope, baseElement, fileName) {
             if (scope.params.isShow.fileName) {
-                fileName = fileName == undefined || fileName == null || fileName == '' ? "未選擇任何檔案" : fileName;
+                fileName = fileName == undefined || fileName == null || fileName == '' ? "No chosen File" : fileName;
                 var baseTemplate = "<label class='text-info'>" + fileName + "</label>";
                 var fileNameElement = angular.element(baseTemplate);
                 //baseElement.append(fileNameElement);

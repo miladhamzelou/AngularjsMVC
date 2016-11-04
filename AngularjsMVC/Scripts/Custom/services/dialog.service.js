@@ -40,7 +40,7 @@
 
             options = angular.extend({
                 kind: "information",
-                title: "系統訊息",
+                title: "system",
                 message: "",
                 modal: true,
                 callback: null,
@@ -50,7 +50,7 @@
                     $(this).remove();
                 },
                 buttons: {
-                    "確定": function () {
+                    "confirm": function () {
                         executeCallback();
                         $(this).dialog("close");
                     }
@@ -75,7 +75,7 @@
 
             options = angular.extend({
                 kind: "warning",
-                title: "確認訊息",
+                title: "confirm message",
                 message: "",
                 modal: true,
                 callback: null,
@@ -85,11 +85,11 @@
                     $(this).remove();
                 },
                 buttons: {
-                    "確定": function () {
+                    "confirm": function () {
                         executeCallback(true);
                         $(this).dialog("close");
                     },
-                    "取消": function () {
+                    "cancel": function () {
                         executeCallback(false);
                         $(this).dialog("close");
                     }
