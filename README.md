@@ -1,5 +1,6 @@
 # AngularjsMVC
-There is demo Angularjs + MVC
+There are Angularjs + MVC
 
-Requirements
-Visual Studio 2015          
+Tools Visual Studio 2015     
+
+[Demo](www.nchow.somee.com) 
